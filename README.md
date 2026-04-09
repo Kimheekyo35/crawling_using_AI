@@ -8,4 +8,4 @@ Session ended successfully.
 
 로 나옴.
 
-:star 제대로 5개의 대표 리뷰를 추출함
+⭐ 제대로 5개의 대표 리뷰를 추출함
