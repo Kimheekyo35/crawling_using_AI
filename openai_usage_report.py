@@ -13,6 +13,7 @@ from urllib.request import Request, urlopen
 from dotenv import load_dotenv
 
 from token_cal import calc_cost
+import re
 
 API_BASE = "https://api.openai.com/v1"
 
