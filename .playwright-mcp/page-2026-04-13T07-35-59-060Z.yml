@@ -1,0 +1,72 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "가이드" [ref=e9] [cursor=pointer]:
+          - generic [ref=e12]:
+            - img
+        - generic [ref=e13]:
+          - link "YouTube 홈" [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e19]:
+              - img
+          - generic [ref=e20]: KR
+        - button "탐색 건너뛰기" [ref=e24] [cursor=pointer]:
+          - generic: 탐색 건너뛰기
+      - generic [ref=e28]:
+        - search [ref=e29]:
+          - generic [ref=e30]:
+            - generic [ref=e31]:
+              - combobox "검색" [expanded] [ref=e33]
+              - button [ref=e36] [cursor=pointer]
+            - button "Search" [ref=e37] [cursor=pointer]:
+              - generic [ref=e40]:
+                - img
+        - generic [ref=e42]:
+          - button "음성으로 검색" [ref=e44] [cursor=pointer]:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+          - tooltip "tooltip"
+      - generic [ref=e49]:
+        - button "설정" [ref=e54] [cursor=pointer]:
+          - generic [ref=e57]:
+            - img
+        - link "로그인" [ref=e60] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dko%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&hl=ko&ec=65620
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - img
+          - generic: 로그인
+  - navigation [ref=e64]:
+    - generic [ref=e65]:
+      - link "홈" [ref=e67] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e70]:
+          - img
+        - generic [ref=e71]: 홈
+      - link "Shorts" [ref=e73] [cursor=pointer]:
+        - /url: /shorts/
+        - generic [ref=e76]:
+          - img
+        - generic [ref=e77]: Shorts
+      - link "구독" [ref=e79] [cursor=pointer]:
+        - /url: /feed/subscriptions
+        - generic [ref=e82]:
+          - img
+        - generic [ref=e83]: 구독
+      - link "내 페이지" [ref=e85] [cursor=pointer]:
+        - /url: /feed/you
+        - generic [ref=e88]:
+          - img
+        - generic [ref=e89]: 내 페이지
+  - generic [ref=e90]:
+    - main [ref=e91]:
+      - generic [ref=e101]:
+        - heading "검색하여 시작하기" [level=2] [ref=e102]
+        - generic [ref=e103]: 내가 좋아할 만한 동영상 피드를 받을 수 있도록 동영상 시청을 시작해 보세요
+    - text: •
