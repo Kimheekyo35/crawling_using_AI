@@ -1,0 +1,759 @@
+- generic [ref=e2]:
+  - generic:
+    - link "본문바로가기":
+      - /url: "#Container"
+  - generic [ref=e3]:
+    - list [ref=e5]:
+      - listitem [ref=e6]:
+        - link "회원가입" [ref=e7] [cursor=pointer]:
+          - /url: "javascript:common.reqAmplitude('상단헤더 클릭', {entry_source: '퓌 검색', click_source: '상단헤더', top_header_type: '회원가입'});common.link.moveJoinMember();"
+      - listitem [ref=e8]:
+        - link "로그인" [ref=e9] [cursor=pointer]:
+          - /url: "javascript:common.reqAmplitude('상단헤더 클릭', {entry_source: '퓌 검색', click_source: '상단헤더', top_header_type: '로그인'});common.link.moveLoginPage();"
+      - listitem [ref=e10]:
+        - link "장바구니" [ref=e11] [cursor=pointer]:
+          - /url: "javascript:common.reqAmplitude('상단헤더 클릭', {entry_source: '퓌 검색', click_source: '상단헤더', top_header_type: '장바구니'});common.link.moveCartPage('t_page=퓌 검색&t_click=상단헤더&t_header_type=장바구니');"
+          - text: 장바구니
+      - listitem [ref=e12]:
+        - link "주문배송" [ref=e13] [cursor=pointer]:
+          - /url: https://www.oliveyoung.co.kr/store/mypage/getOrderList.do?&t_page=퓌 검색&t_click=상단헤더&t_header_type=주문배송
+      - listitem [ref=e14]:
+        - link "고객센터" [ref=e15] [cursor=pointer]:
+          - /url: https://www.oliveyoung.co.kr/store/counsel/getFaqList.do?faqLrclCd=99&t_page=퓌 검색&t_click=상단헤더&t_header_type=고객센터
+      - listitem [ref=e16]:
+        - link "올영매장" [ref=e17] [cursor=pointer]:
+          - /url: https://www.oliveyoung.co.kr/store/store/getStoreInfoMain.do?t_page=퓌 검색&t_click=상단헤더&t_header_type=매장안내
+      - listitem [ref=e18]:
+        - link "Global" [ref=e19] [cursor=pointer]:
+          - /url: http://global.oliveyoung.com
+    - generic [ref=e20]:
+      - heading "올리브영" [level=1] [ref=e21]:
+        - link "올리브영" [ref=e22] [cursor=pointer]:
+          - /url: https://www.oliveyoung.co.kr/store/main/main.do?t_page=퓌 검색&t_click=헤더&t_header_type=로고
+          - img "올리브영" [ref=e23]
+      - generic [ref=e24]:
+        - textbox "상품, 브랜드, 성분 검색" [ref=e25]: 퓌
+        - button "검색어 삭제" [ref=e26] [cursor=pointer]
+        - button "검색" [ref=e27] [cursor=pointer]
+      - list [ref=e28]:
+        - listitem [ref=e29]:
+          - link "오늘드림" [ref=e30] [cursor=pointer]:
+            - /url: javascript:;
+          - paragraph [ref=e33]: 배송지를 등록하고 오늘드림으로 구매 가능한 상품을 확인하세요!
+        - listitem [ref=e34]:
+          - link "올영매장찾기" [ref=e35] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e36]:
+          - link "최근 본 상품" [ref=e37] [cursor=pointer]:
+            - /url: javascript:;
+  - generic [ref=e40]:
+    - link "카테고리" [ref=e41] [cursor=pointer]:
+      - /url: "#"
+    - list [ref=e42]:
+      - listitem [ref=e43]:
+        - link "오특" [ref=e44] [cursor=pointer]:
+          - /url: https://www.oliveyoung.co.kr/store/main/getHotdealList.do?t_page=퓌 검색&t_click=GNB&t_gnb_type=오특&t_swiping_type=N
+      - listitem [ref=e45]:
+        - link "랭킹" [ref=e46] [cursor=pointer]:
+          - /url: https://www.oliveyoung.co.kr/store/main/getBestList.do?t_page=퓌 검색&t_click=GNB&t_gnb_type=랭킹&t_swiping_type=N
+      - listitem [ref=e47]:
+        - link "올리브베러" [ref=e48] [cursor=pointer]:
+          - /url: https://www.oliveyoung.co.kr/store/planshop/getPlanShopDetail.do?dispCatNo=500000100015351&t_page=퓌 검색&t_click=GNB&t_gnb_type=올리브베러&t_swiping_type=N
+      - listitem [ref=e49]:
+        - link "테마관" [ref=e50] [cursor=pointer]:
+          - /url: https://www.oliveyoung.co.kr/store/planshop/getPlanShopDetail.do?dispCatNo=500000102780092&type=theme&t_page=퓌 검색&t_click=GNB&t_gnb_type=테마관&t_swiping_type=N
+      - listitem [ref=e51]:
+        - link "기획전" [ref=e52] [cursor=pointer]:
+          - /url: https://www.oliveyoung.co.kr/store/main/getPlanShopList.do?t_page=퓌 검색&t_click=GNB&t_gnb_type=기획전&t_swiping_type=N
+      - listitem [ref=e53]:
+        - link "세일" [ref=e54] [cursor=pointer]:
+          - /url: https://www.oliveyoung.co.kr/store/main/getSaleList.do?t_page=퓌 검색&t_click=GNB&t_gnb_type=세일&t_swiping_type=N
+      - listitem [ref=e55]:
+        - link "기프트카드" [ref=e56] [cursor=pointer]:
+          - /url: https://www.oliveyoung.co.kr/store/giftCardGuide/getGiftCardGuide.do?t_page=퓌 검색&t_click=GNB&t_gnb_type=기프트카드&t_swiping_type=N
+      - listitem [ref=e57]:
+        - link "멤버십/쿠폰" [ref=e58] [cursor=pointer]:
+          - /url: https://www.oliveyoung.co.kr/store/main/getMembership.do?t_page=퓌 검색&t_click=GNB&t_gnb_type=멤버십/쿠폰&t_swiping_type=N
+      - listitem [ref=e59]:
+        - link "이벤트" [ref=e60] [cursor=pointer]:
+          - /url: https://www.oliveyoung.co.kr/store/main/getEventList.do?t_page=퓌 검색&t_click=GNB&t_gnb_type=이벤트&t_swiping_type=N
+  - generic [ref=e63]:
+    - generic [ref=e64]:
+      - paragraph [ref=e66]:
+        - text: ‘
+        - strong [ref=e67]: 퓌
+        - generic [ref=e68]: ’에 대한 검색결과
+      - generic [ref=e70]:
+        - button "퓌 브랜드관 퓌 바로가기" [ref=e71] [cursor=pointer]:
+          - img "퓌" [ref=e73]
+          - generic [ref=e74]:
+            - paragraph [ref=e75]: 브랜드관
+            - generic [ref=e76]:
+              - strong [ref=e77]: 퓌
+              - text: 바로가기
+        - button "15,279" [ref=e78] [cursor=pointer]:
+          - generic [ref=e79]: 15,279
+      - generic [ref=e80]:
+        - generic [ref=e82]:
+          - heading "카테고리" [level=4] [ref=e83]
+          - list [ref=e84]:
+            - listitem [ref=e85]:
+              - link "메이크업" [ref=e86] [cursor=pointer]:
+                - /url: javascript:void(0);
+            - listitem [ref=e87]:
+              - link "메이크업 툴" [ref=e88] [cursor=pointer]:
+                - /url: javascript:void(0);
+            - listitem [ref=e89]:
+              - link "향수/디퓨저" [ref=e90] [cursor=pointer]:
+                - /url: javascript:void(0);
+            - listitem [ref=e91]:
+              - link "홈리빙/가전" [ref=e92] [cursor=pointer]:
+                - /url: javascript:void(0);
+        - generic [ref=e94]:
+          - heading "브랜드" [level=4] [ref=e95]
+          - list [ref=e96]:
+            - listitem [ref=e97]: 퓌
+            - listitem [ref=e98]: 바겐슈타이거
+            - listitem [ref=e99]: 코코도르
+        - generic [ref=e101]:
+          - heading "혜택" [level=4] [ref=e102]
+          - list [ref=e103]:
+            - listitem [ref=e104]: 쿠폰상품
+            - listitem [ref=e105]: 세일상품
+            - listitem [ref=e106]: 1+1
+            - listitem [ref=e107]: 2+1
+            - listitem [ref=e108]: 증정상품
+            - listitem [ref=e109]: 무료배송
+        - generic [ref=e111]:
+          - heading "가격" [level=4] [ref=e112]
+          - generic [ref=e113]:
+            - textbox "0" [ref=e114]
+            - generic [ref=e115]: ~
+            - textbox "0" [ref=e116]
+            - button "가격대 적용" [ref=e117] [cursor=pointer]
+        - generic [ref=e119]:
+          - heading "결과 내 재검색" [level=4] [ref=e120]
+          - generic [ref=e121]:
+            - textbox "검색어를 입력해주세요" [ref=e122]
+            - button "검색어 적용" [ref=e123] [cursor=pointer]
+        - list [ref=e124]:
+          - listitem [ref=e125]:
+            - generic [ref=e126] [cursor=pointer]: 오늘드림
+          - listitem [ref=e127]:
+            - button "퍼스널컬러" [ref=e128] [cursor=pointer]
+          - listitem [ref=e129]:
+            - button "제품타입" [ref=e130] [cursor=pointer]
+          - listitem [ref=e131]:
+            - button "메인컬러" [ref=e132] [cursor=pointer]
+          - listitem [ref=e133]:
+            - button "펄유무" [ref=e134] [cursor=pointer]
+          - listitem [ref=e135]:
+            - button "발림성" [ref=e136] [cursor=pointer]
+    - generic [ref=e137]:
+      - paragraph [ref=e138]: 총 26개
+      - list [ref=e140]:
+        - listitem [ref=e141]:
+          - link "인기순" [ref=e142] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e143]:
+          - link "판매순" [ref=e144] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e145]:
+          - link "낮은 가격순" [ref=e146] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e147]:
+          - link "높은 가격순" [ref=e148] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e149]:
+          - link "리뷰 많은 순" [ref=e150] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e151]:
+          - link "할인율순" [ref=e152] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e153]:
+          - link "신상품순" [ref=e154] [cursor=pointer]:
+            - /url: "#"
+      - button "24개씩" [ref=e156] [cursor=pointer]
+    - generic [ref=e157]:
+      - list [ref=e158]:
+        - listitem [ref=e159]:
+          - generic [ref=e160]:
+            - link "베스트 이미지 썸네일" [ref=e161] [cursor=pointer]:
+              - /url: https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000248951&dispCatNo=1000001000200060003&trackingCd=Result_1
+              - generic [ref=e162]: 베스트
+              - img "이미지 썸네일" [ref=e163]
+            - link "퓌 [나연PICK 6컬러추가] 퓌 로즈 옵세션 스테이핏 틴트 24종 (글로우/매트)" [ref=e165] [cursor=pointer]:
+              - /url: javascript:gtm.goods.callGoodsGtmInfo('A000000248951',null, 'ee-productClick', '통합검색결과페이지_검색결과상품_인기순', '1');moveGoodsDetailForSearch('A000000248951','1000001000200060003', 'Result_1' ,  '퓌' , '1' );
+              - generic [ref=e166]: 퓌
+              - paragraph [ref=e167]: "[나연PICK 6컬러추가] 퓌 로즈 옵세션 스테이핏 틴트 24종 (글로우/매트)"
+            - button "찜하기" [ref=e168] [cursor=pointer]
+            - paragraph [ref=e169]:
+              - generic [ref=e170]:
+                - generic [ref=e171]: 18,000
+                - text: 원~
+              - generic [ref=e172]:
+                - generic [ref=e173]: 11,000
+                - text: 원~
+            - paragraph [ref=e174]:
+              - generic [ref=e175]: 세일
+              - generic [ref=e176]: 오늘드림
+        - listitem [ref=e177]:
+          - generic [ref=e178]:
+            - link "베스트 이미지 썸네일" [ref=e179] [cursor=pointer]:
+              - /url: https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000246445&dispCatNo=1000001000200060002&trackingCd=Result_2
+              - generic [ref=e180]: 베스트
+              - img "이미지 썸네일" [ref=e181]
+            - link "퓌 [콜라글로스] 퓌 3D 볼류밍 글로스 5.3g 23종 단품/기획" [ref=e183] [cursor=pointer]:
+              - /url: javascript:gtm.goods.callGoodsGtmInfo('A000000246445',null, 'ee-productClick', '통합검색결과페이지_검색결과상품_인기순', '2');moveGoodsDetailForSearch('A000000246445','1000001000200060002', 'Result_2' ,  '퓌' , '2' );
+              - generic [ref=e184]: 퓌
+              - paragraph [ref=e185]: "[콜라글로스] 퓌 3D 볼류밍 글로스 5.3g 23종 단품/기획"
+            - button "찜하기" [ref=e186] [cursor=pointer]
+            - paragraph [ref=e187]:
+              - generic [ref=e188]:
+                - generic [ref=e189]: 18,000
+                - text: 원~
+              - generic [ref=e190]:
+                - generic [ref=e191]: 12,600
+                - text: 원~
+            - paragraph [ref=e192]:
+              - generic [ref=e193]: 세일
+              - generic [ref=e194]: 오늘드림
+        - listitem [ref=e195]:
+          - generic [ref=e196]:
+            - link "이미지 썸네일" [ref=e197] [cursor=pointer]:
+              - /url: https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000205095&dispCatNo=1000001000200010009&trackingCd=Result_3
+              - img "이미지 썸네일" [ref=e198]
+            - link "퓌 [단독구성] 퓌 쿠션 글래스 내추럴 5컬러 기획(+리필파우치/퍼프2매증정)" [ref=e200] [cursor=pointer]:
+              - /url: javascript:gtm.goods.callGoodsGtmInfo('A000000205095',null, 'ee-productClick', '통합검색결과페이지_검색결과상품_인기순', '3');moveGoodsDetailForSearch('A000000205095','1000001000200010009', 'Result_3' ,  '퓌' , '3' );
+              - generic [ref=e201]: 퓌
+              - paragraph [ref=e202]: "[단독구성] 퓌 쿠션 글래스 내추럴 5컬러 기획(+리필파우치/퍼프2매증정)"
+            - button "찜하기" [ref=e203] [cursor=pointer]
+            - paragraph [ref=e204]:
+              - generic [ref=e205]:
+                - generic [ref=e206]: 38,000
+                - text: 원~
+              - generic [ref=e207]:
+                - generic [ref=e208]: 28,000
+                - text: 원~
+            - paragraph [ref=e209]:
+              - generic [ref=e210]: 세일
+              - generic [ref=e211]: 오늘드림
+        - listitem [ref=e212]:
+          - generic [ref=e213]:
+            - link "이미지 썸네일" [ref=e214] [cursor=pointer]:
+              - /url: https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000246446&dispCatNo=1000001000200010006&trackingCd=Result_4
+              - img "이미지 썸네일" [ref=e215]
+            - link "퓌 [망곰콜라보] 퓌 립앤치크 블러리 푸딩팟 5g 단품/기획 (+망그러진 곰 푸딩팟주머니)" [ref=e217] [cursor=pointer]:
+              - /url: javascript:gtm.goods.callGoodsGtmInfo('A000000246446',null, 'ee-productClick', '통합검색결과페이지_검색결과상품_인기순', '4');moveGoodsDetailForSearch('A000000246446','1000001000200010006', 'Result_4' ,  '퓌' , '4' );
+              - generic [ref=e218]: 퓌
+              - paragraph [ref=e219]: "[망곰콜라보] 퓌 립앤치크 블러리 푸딩팟 5g 단품/기획 (+망그러진 곰 푸딩팟주머니)"
+            - button "찜하기" [ref=e220] [cursor=pointer]
+            - paragraph [ref=e221]:
+              - generic [ref=e222]:
+                - generic [ref=e223]: 22,000
+                - text: 원~
+              - generic [ref=e224]:
+                - generic [ref=e225]: 15,200
+                - text: 원~
+            - paragraph [ref=e226]:
+              - generic [ref=e227]: 세일
+              - generic [ref=e228]: 오늘드림
+      - list [ref=e229]:
+        - listitem [ref=e230]:
+          - generic [ref=e231]:
+            - link "이미지 썸네일" [ref=e232] [cursor=pointer]:
+              - /url: https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000238489&dispCatNo=1000001000200010003&trackingCd=Result_5
+              - img "이미지 썸네일" [ref=e233]
+            - link "퓌 [듀오기획출시/나연PICK] 퓌 스파 글로잉 UV 톤업 베이스 35ml 2종 (속광/물광) 단품/기획" [ref=e235] [cursor=pointer]:
+              - /url: javascript:gtm.goods.callGoodsGtmInfo('A000000238489',null, 'ee-productClick', '통합검색결과페이지_검색결과상품_인기순', '5');moveGoodsDetailForSearch('A000000238489','1000001000200010003', 'Result_5' ,  '퓌' , '5' );
+              - generic [ref=e236]: 퓌
+              - paragraph [ref=e237]: "[듀오기획출시/나연PICK] 퓌 스파 글로잉 UV 톤업 베이스 35ml 2종 (속광/물광) 단품/기획"
+            - button "찜하기" [ref=e238] [cursor=pointer]
+            - paragraph [ref=e239]:
+              - generic [ref=e240]:
+                - generic [ref=e241]: 33,000
+                - text: 원~
+              - generic [ref=e242]:
+                - generic [ref=e243]: 28,000
+                - text: 원~
+            - paragraph [ref=e244]:
+              - generic [ref=e245]: 세일
+              - generic [ref=e246]: 오늘드림
+        - listitem [ref=e247]:
+          - generic [ref=e248]:
+            - link "이미지 썸네일" [ref=e249] [cursor=pointer]:
+              - /url: https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000203758&dispCatNo=1000001000200070003&trackingCd=Result_6
+              - img "이미지 썸네일" [ref=e250]
+            - link "퓌 퓌 모어무드 아이팔레트 6컬러" [ref=e252] [cursor=pointer]:
+              - /url: javascript:gtm.goods.callGoodsGtmInfo('A000000203758',null, 'ee-productClick', '통합검색결과페이지_검색결과상품_인기순', '6');moveGoodsDetailForSearch('A000000203758','1000001000200070003', 'Result_6' ,  '퓌' , '6' );
+              - generic [ref=e253]: 퓌
+              - paragraph [ref=e254]: 퓌 모어무드 아이팔레트 6컬러
+            - button "찜하기" [ref=e255] [cursor=pointer]
+            - paragraph [ref=e256]:
+              - generic [ref=e257]:
+                - generic [ref=e258]: 35,000
+                - text: 원~
+              - generic [ref=e259]:
+                - generic [ref=e260]: 26,600
+                - text: 원~
+            - paragraph [ref=e261]:
+              - generic [ref=e262]: 세일
+              - generic [ref=e263]: 오늘드림
+        - listitem [ref=e264]:
+          - generic [ref=e265]:
+            - link "이미지 썸네일" [ref=e266] [cursor=pointer]:
+              - /url: https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000246447&dispCatNo=1000001000200010009&trackingCd=Result_7
+              - img "이미지 썸네일" [ref=e267]
+            - link "퓌 [단독기획] 퓌 쿠션 글래스 오리지널 13g 리필기획 5종 (+리필파우치/퍼프2매증정)" [ref=e269] [cursor=pointer]:
+              - /url: javascript:gtm.goods.callGoodsGtmInfo('A000000246447',null, 'ee-productClick', '통합검색결과페이지_검색결과상품_인기순', '7');moveGoodsDetailForSearch('A000000246447','1000001000200010009', 'Result_7' ,  '퓌' , '7' );
+              - generic [ref=e270]: 퓌
+              - paragraph [ref=e271]: "[단독기획] 퓌 쿠션 글래스 오리지널 13g 리필기획 5종 (+리필파우치/퍼프2매증정)"
+            - button "찜하기" [ref=e272] [cursor=pointer]
+            - paragraph [ref=e273]:
+              - generic [ref=e274]:
+                - generic [ref=e275]: 38,000
+                - text: 원~
+              - generic [ref=e276]:
+                - generic [ref=e277]: 28,000
+                - text: 원~
+            - paragraph [ref=e278]:
+              - generic [ref=e279]: 세일
+              - generic [ref=e280]: 오늘드림
+        - listitem [ref=e281]:
+          - generic [ref=e282]:
+            - link "이미지 썸네일" [ref=e283] [cursor=pointer]:
+              - /url: https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000245691&dispCatNo=1000001000200060001,1000001000200060007&trackingCd=Result_8
+              - img "이미지 썸네일" [ref=e284]
+            - link "퓌 [3g추가증정기획] 퓌 글로이 스무디 틴티드 립밤 9.5g 17종 (글로이/블러/멜팅)" [ref=e286] [cursor=pointer]:
+              - /url: javascript:gtm.goods.callGoodsGtmInfo('A000000245691',null, 'ee-productClick', '통합검색결과페이지_검색결과상품_인기순', '8');moveGoodsDetailForSearch('A000000245691','1000001000200060001,1000001000200060007', 'Result_8' ,  '퓌' , '8' );
+              - generic [ref=e287]: 퓌
+              - paragraph [ref=e288]: "[3g추가증정기획] 퓌 글로이 스무디 틴티드 립밤 9.5g 17종 (글로이/블러/멜팅)"
+            - button "찜하기" [ref=e289] [cursor=pointer]
+            - paragraph [ref=e290]:
+              - generic [ref=e291]:
+                - generic [ref=e292]: 18,000
+                - text: 원~
+              - generic [ref=e293]:
+                - generic [ref=e294]: 10,600
+                - text: 원~
+            - paragraph [ref=e295]:
+              - generic [ref=e296]: 세일
+              - generic [ref=e297]: 오늘드림
+      - list [ref=e298]:
+        - listitem [ref=e299]:
+          - generic [ref=e300]:
+            - link "이미지 썸네일" [ref=e301] [cursor=pointer]:
+              - /url: https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000203529&dispCatNo=1000001000200010006&trackingCd=Result_9
+              - img "이미지 썸네일" [ref=e302]
+            - link "퓌 퓌 멜로우 듀얼 블러셔 12컬러" [ref=e304] [cursor=pointer]:
+              - /url: javascript:gtm.goods.callGoodsGtmInfo('A000000203529',null, 'ee-productClick', '통합검색결과페이지_검색결과상품_인기순', '9');moveGoodsDetailForSearch('A000000203529','1000001000200010006', 'Result_9' ,  '퓌' , '9' );
+              - generic [ref=e305]: 퓌
+              - paragraph [ref=e306]: 퓌 멜로우 듀얼 블러셔 12컬러
+            - button "찜하기" [ref=e307] [cursor=pointer]
+            - paragraph [ref=e308]:
+              - generic [ref=e309]:
+                - generic [ref=e310]: 22,000
+                - text: 원~
+              - generic [ref=e311]:
+                - generic [ref=e312]: 15,900
+                - text: 원~
+            - paragraph [ref=e313]:
+              - generic [ref=e314]: 세일
+              - generic [ref=e315]: 오늘드림
+        - listitem [ref=e316]:
+          - generic [ref=e317]:
+            - link "이미지 썸네일" [ref=e318] [cursor=pointer]:
+              - /url: https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000252328&dispCatNo=1000001000200010009&trackingCd=Result_10
+              - img "이미지 썸네일" [ref=e319]
+            - link "퓌 [망곰콜라보] 퓌 쿠션 글래스 오리지널 13g 리필기획 3종 (+망그러진 곰 헤어집게핀)" [ref=e321] [cursor=pointer]:
+              - /url: javascript:gtm.goods.callGoodsGtmInfo('A000000252328',null, 'ee-productClick', '통합검색결과페이지_검색결과상품_인기순', '10');moveGoodsDetailForSearch('A000000252328','1000001000200010009', 'Result_10' ,  '퓌' , '10' );
+              - generic [ref=e322]: 퓌
+              - paragraph [ref=e323]: "[망곰콜라보] 퓌 쿠션 글래스 오리지널 13g 리필기획 3종 (+망그러진 곰 헤어집게핀)"
+            - button "찜하기" [ref=e324] [cursor=pointer]
+            - paragraph [ref=e325]:
+              - generic [ref=e326]:
+                - generic [ref=e327]: 38,000
+                - text: 원~
+              - generic [ref=e328]:
+                - generic [ref=e329]: 22,500
+                - text: 원~
+            - paragraph [ref=e330]:
+              - generic [ref=e331]: 세일
+              - generic [ref=e332]: 오늘드림
+        - listitem [ref=e333]:
+          - generic [ref=e334]:
+            - link "이미지 썸네일" [ref=e335] [cursor=pointer]:
+              - /url: https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000209206&dispCatNo=1000001000200010009&trackingCd=Result_11_30
+              - img "이미지 썸네일" [ref=e336]
+            - link "퓌 [단독구성] 퓌 쿠션 에그핏 커버 5컬러 기획 (+리필파우치/퍼프2매)" [ref=e338] [cursor=pointer]:
+              - /url: javascript:gtm.goods.callGoodsGtmInfo('A000000209206',null, 'ee-productClick', '통합검색결과페이지_검색결과상품_인기순', '11');moveGoodsDetailForSearch('A000000209206','1000001000200010009', 'Result_11_30' ,  '퓌' , '11' );
+              - generic [ref=e339]: 퓌
+              - paragraph [ref=e340]: "[단독구성] 퓌 쿠션 에그핏 커버 5컬러 기획 (+리필파우치/퍼프2매)"
+            - button "찜하기" [ref=e341] [cursor=pointer]
+            - paragraph [ref=e342]:
+              - generic [ref=e343]:
+                - generic [ref=e344]: 38,000
+                - text: 원~
+              - generic [ref=e345]:
+                - generic [ref=e346]: 28,000
+                - text: 원~
+            - paragraph [ref=e347]:
+              - generic [ref=e348]: 세일
+              - generic [ref=e349]: 오늘드림
+        - listitem [ref=e350]:
+          - generic [ref=e351]:
+            - link "이미지 썸네일" [ref=e352] [cursor=pointer]:
+              - /url: https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000200711&dispCatNo=1000001000200060002&trackingCd=Result_11_30
+              - img "이미지 썸네일" [ref=e353]
+            - link "퓌 퓌 3D 체인징 글로스 5.6g 4종" [ref=e355] [cursor=pointer]:
+              - /url: javascript:gtm.goods.callGoodsGtmInfo('A000000200711',null, 'ee-productClick', '통합검색결과페이지_검색결과상품_인기순', '12');moveGoodsDetailForSearch('A000000200711','1000001000200060002', 'Result_11_30' ,  '퓌' , '12' );
+              - generic [ref=e356]: 퓌
+              - paragraph [ref=e357]: 퓌 3D 체인징 글로스 5.6g 4종
+            - button "찜하기" [ref=e358] [cursor=pointer]
+            - paragraph [ref=e359]:
+              - generic [ref=e360]:
+                - generic [ref=e361]: 18,000
+                - text: 원~
+              - generic [ref=e362]:
+                - generic [ref=e363]: 12,900
+                - text: 원~
+            - paragraph [ref=e364]:
+              - generic [ref=e365]: 세일
+              - generic [ref=e366]: 오늘드림
+      - list [ref=e367]:
+        - listitem [ref=e368]:
+          - generic [ref=e369]:
+            - link "이미지 썸네일" [ref=e370] [cursor=pointer]:
+              - /url: https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000233576&dispCatNo=1000001000200060003&trackingCd=Result_11_30
+              - img "이미지 썸네일" [ref=e371]
+            - link "퓌 [바닐라 70% 틴트 출시] 퓌 3D 볼류밍 틴트 3.8g 12종 (단품/기획)" [ref=e373] [cursor=pointer]:
+              - /url: javascript:gtm.goods.callGoodsGtmInfo('A000000233576',null, 'ee-productClick', '통합검색결과페이지_검색결과상품_인기순', '13');moveGoodsDetailForSearch('A000000233576','1000001000200060003', 'Result_11_30' ,  '퓌' , '13' );
+              - generic [ref=e374]: 퓌
+              - paragraph [ref=e375]: "[바닐라 70% 틴트 출시] 퓌 3D 볼류밍 틴트 3.8g 12종 (단품/기획)"
+            - button "찜하기" [ref=e376] [cursor=pointer]
+            - paragraph [ref=e377]:
+              - generic [ref=e378]:
+                - generic [ref=e379]: 18,000
+                - text: 원~
+              - generic [ref=e380]:
+                - generic [ref=e381]: 12,500
+                - text: 원~
+            - paragraph [ref=e382]:
+              - generic [ref=e383]: 세일
+              - generic [ref=e384]: 오늘드림
+        - listitem [ref=e385]:
+          - generic [ref=e386]:
+            - link "이미지 썸네일" [ref=e387] [cursor=pointer]:
+              - /url: https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000212531&dispCatNo=1000001000200060003&trackingCd=Result_11_30
+              - img "이미지 썸네일" [ref=e388]
+            - link "퓌 [20가지핑크] 퓌 핑크 옵세션 스테이핏 틴트 3.8g 20종" [ref=e390] [cursor=pointer]:
+              - /url: javascript:gtm.goods.callGoodsGtmInfo('A000000212531',null, 'ee-productClick', '통합검색결과페이지_검색결과상품_인기순', '14');moveGoodsDetailForSearch('A000000212531','1000001000200060003', 'Result_11_30' ,  '퓌' , '14' );
+              - generic [ref=e391]: 퓌
+              - paragraph [ref=e392]: "[20가지핑크] 퓌 핑크 옵세션 스테이핏 틴트 3.8g 20종"
+            - button "찜하기" [ref=e393] [cursor=pointer]
+            - paragraph [ref=e394]:
+              - generic [ref=e395]:
+                - generic [ref=e396]: 18,000
+                - text: 원~
+              - generic [ref=e397]:
+                - generic [ref=e398]: 9,900
+                - text: 원~
+            - paragraph [ref=e399]:
+              - generic [ref=e400]: 세일
+              - generic [ref=e401]: 오늘드림
+        - listitem [ref=e402]:
+          - generic [ref=e403]:
+            - link "이미지 썸네일" [ref=e404] [cursor=pointer]:
+              - /url: https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000215411&dispCatNo=1000001000600010007&trackingCd=Result_11_30
+              - img "이미지 썸네일" [ref=e405]
+            - link "퓌 [듀얼브러쉬] 퓌 페더라이크 듀얼 하이라이터 브러쉬" [ref=e407] [cursor=pointer]:
+              - /url: javascript:gtm.goods.callGoodsGtmInfo('A000000215411',null, 'ee-productClick', '통합검색결과페이지_검색결과상품_인기순', '15');moveGoodsDetailForSearch('A000000215411','1000001000600010007', 'Result_11_30' ,  '퓌' , '15' );
+              - generic [ref=e408]: 퓌
+              - paragraph [ref=e409]: "[듀얼브러쉬] 퓌 페더라이크 듀얼 하이라이터 브러쉬"
+            - button "찜하기" [ref=e410] [cursor=pointer]
+            - paragraph [ref=e411]:
+              - generic [ref=e412]:
+                - generic [ref=e413]: 13,000
+                - text: 원
+              - generic [ref=e414]:
+                - generic [ref=e415]: 10,400
+                - text: 원
+            - paragraph [ref=e416]:
+              - generic [ref=e417]: 세일
+              - generic [ref=e418]: 오늘드림
+        - listitem [ref=e419]:
+          - generic [ref=e420]:
+            - link "이미지 썸네일" [ref=e421] [cursor=pointer]:
+              - /url: https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000215625&dispCatNo=1000001000200010008&trackingCd=Result_11_30
+              - img "이미지 썸네일" [ref=e422]
+            - link "퓌 [저스트메이크업] 퓌 글리츠 스톤 하이라이터" [ref=e424] [cursor=pointer]:
+              - /url: javascript:gtm.goods.callGoodsGtmInfo('A000000215625',null, 'ee-productClick', '통합검색결과페이지_검색결과상품_인기순', '16');moveGoodsDetailForSearch('A000000215625','1000001000200010008', 'Result_11_30' ,  '퓌' , '16' );
+              - generic [ref=e425]: 퓌
+              - paragraph [ref=e426]: "[저스트메이크업] 퓌 글리츠 스톤 하이라이터"
+            - button "찜하기" [ref=e427] [cursor=pointer]
+            - paragraph [ref=e428]:
+              - generic [ref=e429]:
+                - generic [ref=e430]: 22,000
+                - text: 원~
+              - generic [ref=e431]:
+                - generic [ref=e432]: 15,900
+                - text: 원~
+            - paragraph [ref=e433]:
+              - generic [ref=e434]: 세일
+              - generic [ref=e435]: 오늘드림
+      - list [ref=e436]:
+        - listitem [ref=e437]:
+          - generic [ref=e438]:
+            - link "이미지 썸네일" [ref=e439] [cursor=pointer]:
+              - /url: https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000223208&dispCatNo=1000001000200070003&trackingCd=Result_11_30
+              - img "이미지 썸네일" [ref=e440]
+            - link "퓌 [5구팔레트] 퓌 포켓 아이팔레트 5컬러" [ref=e442] [cursor=pointer]:
+              - /url: javascript:gtm.goods.callGoodsGtmInfo('A000000223208',null, 'ee-productClick', '통합검색결과페이지_검색결과상품_인기순', '17');moveGoodsDetailForSearch('A000000223208','1000001000200070003', 'Result_11_30' ,  '퓌' , '17' );
+              - generic [ref=e443]: 퓌
+              - paragraph [ref=e444]: "[5구팔레트] 퓌 포켓 아이팔레트 5컬러"
+            - button "찜하기" [ref=e445] [cursor=pointer]
+            - paragraph [ref=e446]:
+              - generic [ref=e447]:
+                - generic [ref=e448]: 24,000
+                - text: 원~
+              - generic [ref=e449]:
+                - generic [ref=e450]: 18,600
+                - text: 원~
+            - paragraph [ref=e451]:
+              - generic [ref=e452]: 세일
+              - generic [ref=e453]: 오늘드림
+        - listitem [ref=e454]:
+          - generic [ref=e455]:
+            - link "이미지 썸네일" [ref=e456] [cursor=pointer]:
+              - /url: https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000223401&dispCatNo=1000001000600010007&trackingCd=Result_11_30
+              - img "이미지 썸네일" [ref=e457]
+            - link "퓌 [듀얼브러쉬] 퓌 페더라이크 듀얼 아이섀도우 브러쉬" [ref=e459] [cursor=pointer]:
+              - /url: javascript:gtm.goods.callGoodsGtmInfo('A000000223401',null, 'ee-productClick', '통합검색결과페이지_검색결과상품_인기순', '18');moveGoodsDetailForSearch('A000000223401','1000001000600010007', 'Result_11_30' ,  '퓌' , '18' );
+              - generic [ref=e460]: 퓌
+              - paragraph [ref=e461]: "[듀얼브러쉬] 퓌 페더라이크 듀얼 아이섀도우 브러쉬"
+            - button "찜하기" [ref=e462] [cursor=pointer]
+            - paragraph [ref=e463]:
+              - generic [ref=e464]:
+                - generic [ref=e465]: 12,000
+                - text: 원
+              - generic [ref=e466]:
+                - generic [ref=e467]: 9,000
+                - text: 원
+            - paragraph [ref=e468]:
+              - generic [ref=e469]: 세일
+              - generic [ref=e470]: 오늘드림
+        - listitem [ref=e471]:
+          - generic [ref=e472]:
+            - link "이미지 썸네일" [ref=e473] [cursor=pointer]:
+              - /url: https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000200712&dispCatNo=1000001000200060002&trackingCd=Result_11_30
+              - img "이미지 썸네일" [ref=e474]
+            - link "퓌 퓌 4D 볼류밍 플럼퍼 5.3g" [ref=e476] [cursor=pointer]:
+              - /url: javascript:gtm.goods.callGoodsGtmInfo('A000000200712',null, 'ee-productClick', '통합검색결과페이지_검색결과상품_인기순', '19');moveGoodsDetailForSearch('A000000200712','1000001000200060002', 'Result_11_30' ,  '퓌' , '19' );
+              - generic [ref=e477]: 퓌
+              - paragraph [ref=e478]: 퓌 4D 볼류밍 플럼퍼 5.3g
+            - button "찜하기" [ref=e479] [cursor=pointer]
+            - paragraph [ref=e480]:
+              - generic [ref=e481]:
+                - generic [ref=e482]: 16,000
+                - text: 원
+              - generic [ref=e483]:
+                - generic [ref=e484]: 12,000
+                - text: 원
+            - paragraph [ref=e485]:
+              - generic [ref=e486]: 세일
+              - generic [ref=e487]: 오늘드림
+        - listitem [ref=e488]:
+          - generic [ref=e489]:
+            - link "이미지 썸네일" [ref=e490] [cursor=pointer]:
+              - /url: https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000223393&dispCatNo=1000001000200010006&trackingCd=Result_11_30
+              - img "이미지 썸네일" [ref=e491]
+            - link "퓌 [4구 팔레트] 퓌 포켓 치크팔레트 4컬러" [ref=e493] [cursor=pointer]:
+              - /url: javascript:gtm.goods.callGoodsGtmInfo('A000000223393',null, 'ee-productClick', '통합검색결과페이지_검색결과상품_인기순', '20');moveGoodsDetailForSearch('A000000223393','1000001000200010006', 'Result_11_30' ,  '퓌' , '20' );
+              - generic [ref=e494]: 퓌
+              - paragraph [ref=e495]: "[4구 팔레트] 퓌 포켓 치크팔레트 4컬러"
+            - button "찜하기" [ref=e496] [cursor=pointer]
+            - paragraph [ref=e497]:
+              - generic [ref=e498]:
+                - generic [ref=e499]: 26,000
+                - text: 원~
+              - generic [ref=e500]:
+                - generic [ref=e501]: 19,500
+                - text: 원~
+            - paragraph [ref=e502]:
+              - generic [ref=e503]: 세일
+              - generic [ref=e504]: 오늘드림
+      - list [ref=e505]:
+        - listitem [ref=e506]:
+          - generic [ref=e507]:
+            - link "이미지 썸네일" [ref=e508] [cursor=pointer]:
+              - /url: https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000245734&dispCatNo=1000001000200060001,1000001000200060007&trackingCd=Result_11_30
+              - img "이미지 썸네일" [ref=e509]
+            - link "퓌 [NEW] 퓌 글로이 스무디 틴티드 립밤 미니 5g 6종" [ref=e511] [cursor=pointer]:
+              - /url: javascript:gtm.goods.callGoodsGtmInfo('A000000245734',null, 'ee-productClick', '통합검색결과페이지_검색결과상품_인기순', '21');moveGoodsDetailForSearch('A000000245734','1000001000200060001,1000001000200060007', 'Result_11_30' ,  '퓌' , '21' );
+              - generic [ref=e512]: 퓌
+              - paragraph [ref=e513]: "[NEW] 퓌 글로이 스무디 틴티드 립밤 미니 5g 6종"
+            - button "찜하기" [ref=e514] [cursor=pointer]
+            - paragraph [ref=e515]:
+              - generic [ref=e516]:
+                - generic [ref=e517]: 10,000
+                - text: 원~
+              - generic [ref=e518]:
+                - generic [ref=e519]: 6,500
+                - text: 원~
+            - paragraph [ref=e520]:
+              - generic [ref=e521]: 세일
+              - generic [ref=e522]: 오늘드림
+        - listitem [ref=e523]:
+          - generic [ref=e524]:
+            - link "이미지 썸네일" [ref=e525] [cursor=pointer]:
+              - /url: https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000204132&dispCatNo=1000001000600010007&trackingCd=Result_11_30
+              - img "이미지 썸네일" [ref=e526]
+            - link "퓌 퓌 핑거라이크 립 브러쉬 2종 (모/실리콘)" [ref=e528] [cursor=pointer]:
+              - /url: javascript:gtm.goods.callGoodsGtmInfo('A000000204132',null, 'ee-productClick', '통합검색결과페이지_검색결과상품_인기순', '22');moveGoodsDetailForSearch('A000000204132','1000001000600010007', 'Result_11_30' ,  '퓌' , '22' );
+              - generic [ref=e529]: 퓌
+              - paragraph [ref=e530]: 퓌 핑거라이크 립 브러쉬 2종 (모/실리콘)
+            - button "찜하기" [ref=e531] [cursor=pointer]
+            - paragraph [ref=e532]:
+              - generic [ref=e533]:
+                - generic [ref=e534]: 10,000
+                - text: 원~
+              - generic [ref=e535]:
+                - generic [ref=e536]: 7,800
+                - text: 원~
+            - paragraph [ref=e537]:
+              - generic [ref=e538]: 세일
+              - generic [ref=e539]: 오늘드림
+        - listitem [ref=e540]:
+          - generic [ref=e541]:
+            - link "이미지 썸네일" [ref=e542] [cursor=pointer]:
+              - /url: https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000208681&dispCatNo=1000001000200010009&trackingCd=Result_11_30
+              - img "이미지 썸네일" [ref=e543]
+            - link "퓌 퓌 쿠션 에그핏 커버 단품" [ref=e545] [cursor=pointer]:
+              - /url: javascript:gtm.goods.callGoodsGtmInfo('A000000208681',null, 'ee-productClick', '통합검색결과페이지_검색결과상품_인기순', '23');moveGoodsDetailForSearch('A000000208681','1000001000200010009', 'Result_11_30' ,  '퓌' , '23' );
+              - generic [ref=e546]: 퓌
+              - paragraph [ref=e547]: 퓌 쿠션 에그핏 커버 단품
+            - button "찜하기" [ref=e548] [cursor=pointer]
+            - paragraph [ref=e549]:
+              - generic [ref=e550]:
+                - generic [ref=e551]: 28,000
+                - text: 원
+              - generic [ref=e552]:
+                - generic [ref=e553]: 19,900
+                - text: 원
+            - paragraph [ref=e554]:
+              - generic [ref=e555]: 세일
+              - generic [ref=e556]: 오늘드림
+        - listitem [ref=e557]:
+          - generic [ref=e558]:
+            - link "이미지 썸네일" [ref=e559] [cursor=pointer]:
+              - /url: https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000226501&dispCatNo=1000001000200010009&trackingCd=Result_11_30
+              - img "이미지 썸네일" [ref=e560]
+            - link "퓌 [단독구성] 퓌 쿠션 글래스 오리지널 (단품/기획)" [ref=e562] [cursor=pointer]:
+              - /url: javascript:gtm.goods.callGoodsGtmInfo('A000000226501',null, 'ee-productClick', '통합검색결과페이지_검색결과상품_인기순', '24');moveGoodsDetailForSearch('A000000226501','1000001000200010009', 'Result_11_30' ,  '퓌' , '24' );
+              - generic [ref=e563]: 퓌
+              - paragraph [ref=e564]: "[단독구성] 퓌 쿠션 글래스 오리지널 (단품/기획)"
+            - button "찜하기" [ref=e565] [cursor=pointer]
+            - paragraph [ref=e566]:
+              - generic [ref=e567]:
+                - generic [ref=e568]: 28,000
+                - text: 원~
+              - generic [ref=e569]:
+                - generic [ref=e570]: 19,900
+                - text: 원~
+            - paragraph [ref=e571]:
+              - generic [ref=e572]: 세일
+              - generic [ref=e573]: 오늘드림
+    - generic [ref=e574]:
+      - strong [ref=e575]: "1"
+      - link "2" [ref=e576] [cursor=pointer]:
+        - /url: "#none"
+  - generic [ref=e577]:
+    - generic [ref=e579]:
+      - list [ref=e580]:
+        - listitem [ref=e581]:
+          - link "회사소개" [ref=e582] [cursor=pointer]:
+            - /url: https://corp.oliveyoung.com/ko
+        - listitem [ref=e583]:
+          - link "채용안내" [ref=e584] [cursor=pointer]:
+            - /url: https://career.oliveyoung.com/jobs
+        - listitem [ref=e585]:
+          - link "가맹점 개설문의" [ref=e586] [cursor=pointer]:
+            - /url: https://www.oliveyoung.co.kr/store/prvsuser/getPrvsuser.do
+        - listitem [ref=e587]:
+          - link "상품입점 문의" [ref=e588] [cursor=pointer]:
+            - /url: https://oypartner.cj.net/CJOYP/prvsuser/index/index.fo
+        - listitem [ref=e589]:
+          - link "대량구매" [ref=e590] [cursor=pointer]:
+            - /url: /store/planshop/getPlanShopDetail.do?dispCatNo=500000100015347
+        - listitem [ref=e591]:
+          - link "사이버 감사실" [ref=e592] [cursor=pointer]:
+            - /url: javascript:common.cyber.oyLayerOpen('cyberAuditPop',this);
+        - listitem [ref=e593]:
+          - link "고객센터" [ref=e594] [cursor=pointer]:
+            - /url: javascript:common.faq.getFaqList('99');
+      - link "CJ그룹 계열사 바로가기" [ref=e596] [cursor=pointer]:
+        - /url: "#"
+    - list [ref=e599]:
+      - listitem [ref=e600]:
+        - paragraph [ref=e601]:
+          - link "OLIVEYOUNG":
+            - /url: javascript:common.link.moveMainHome();
+            - img "OLIVEYOUNG" [ref=e602] [cursor=pointer]
+        - heading "씨제이올리브영 주식회사" [level=2] [ref=e603]
+        - paragraph [ref=e604]: "대표이사 : 이선정 | 사업자등록번호 : 809-81-01574"
+        - paragraph [ref=e605]:
+          - text: "주소 : (04323) 서울특별시 용산구 한강대로 372, 24층"
+          - text: (동자동, KDB타워)
+        - paragraph [ref=e606]: "호스팅사업자 : CJ 올리브네트웍스"
+        - paragraph [ref=e607]: "통신판매업신고번호 : 2019-서울용산-1428"
+        - paragraph [ref=e608]:
+          - 'link "이메일 : oliveyoung@cj.net" [ref=e609] [cursor=pointer]':
+            - /url: mailto:oliveyoung@cj.net
+        - paragraph [ref=e610]:
+          - link "사업자 정보확인 >" [ref=e611] [cursor=pointer]:
+            - /url: javascript:common.link.openFtcBizInfo();
+      - listitem [ref=e612]:
+        - list [ref=e613]:
+          - listitem [ref=e614]:
+            - link "이용약관과 정책" [ref=e615] [cursor=pointer]:
+              - /url: javascript:common.link.moveTermsPage();
+            - link "・법적고지" [ref=e616] [cursor=pointer]:
+              - /url: javascript:common.link.moveLegalPage();
+          - listitem [ref=e617]:
+            - link "개인정보처리방침" [ref=e618] [cursor=pointer]:
+              - /url: javascript:common.link.movePrivacyPage();
+          - listitem [ref=e619]:
+            - link "청소년보호방침" [ref=e620] [cursor=pointer]:
+              - /url: javascript:common.link.moveYouthProtectionPage();
+          - listitem [ref=e621]:
+            - link "고정형 영상정보처리기기 운영/관리 방침" [ref=e622] [cursor=pointer]:
+              - /url: javascript:common.link.moveMultimediaPage();
+          - listitem [ref=e623]:
+            - link "이메일무단수집거부" [ref=e624] [cursor=pointer]:
+              - /url: javascript:common.link.moveDenyEmailPage();
+      - listitem [ref=e625]:
+        - heading "하나은행 구매안전 서비스" [level=2] [ref=e626]
+        - paragraph [ref=e627]:
+          - text: 올리브영은 현금 결제한 금액에 대해
+          - text: 하나은행과 채무지급보증 계약을체결
+          - text: 하여 안전한 거래를 보장하고 있습니다
+          - link "서비스 가입사실 확인 >" [ref=e628] [cursor=pointer]:
+            - /url: javascript:common.link.openEscrowPopup('https://image.oliveyoung.co.kr/cfimages/footer/payment_guarantee.png','agree',665,925);
+    - list [ref=e631]:
+      - listitem [ref=e632]: "정보보호 및 개인정보보호 관리체계 ISMS-P 인증 획득 | 인증 범위 : 온라인 쇼핑몰 운영(올리브영 국내, 올리브영 글로벌, 디플롯) | 유효기간 : 2024.12.04~2027.12.03"
+    - generic [ref=e634]:
+      - paragraph [ref=e635]: Copyright ⓒ CJ OliveYoung. All Rights Reserved.
+      - generic [ref=e636]:
+        - heading "OLIVE YOUNG SNS" [level=2] [ref=e637]
+        - link "페이스북" [ref=e638] [cursor=pointer]:
+          - /url: https://www.facebook.com/OLIVEYOUNG
+          - img "페이스북" [ref=e639]
+        - link "인스타그램" [ref=e640] [cursor=pointer]:
+          - /url: https://www.instagram.com/oliveyoung_official/
+          - img "인스타그램" [ref=e641]
+        - link "유튜브" [ref=e642] [cursor=pointer]:
+          - /url: https://www.youtube.com/user/cjoliveyoung/
+          - img "유튜브" [ref=e643]
+        - link "카카오톡" [ref=e644] [cursor=pointer]:
+          - /url: javascript:common.link.openKakao();
+          - img "카카오톡" [ref=e645]

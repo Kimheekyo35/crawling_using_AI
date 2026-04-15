@@ -1,0 +1,944 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "뒤로가기" [ref=e4] [cursor=pointer]:
+        - img [ref=e5]
+      - generic [ref=e8]:
+        - link "검색" [ref=e9] [cursor=pointer]:
+          - img [ref=e10]
+        - link "홈" [ref=e13] [cursor=pointer]:
+          - img [ref=e14]
+        - link "장바구니" [ref=e16] [cursor=pointer]:
+          - img [ref=e17]
+  - main [ref=e20]:
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - generic [ref=e26]:
+          - generic [ref=e27]:
+            - img "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0024/A00000024895115ko.jpg?l=ko" [ref=e30]
+            - img "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0024/A00000024895111ko.jpg?l=ko" [ref=e33]
+            - img "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0024/A00000024895112ko.jpg?l=ko" [ref=e36]
+            - img "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0024/A00000024895102ko.png?l=ko" [ref=e39]
+            - img "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0024/A00000024895103ko.png?l=ko" [ref=e42]
+            - img "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0024/A00000024895113ko.png?l=ko" [ref=e45]
+          - generic [ref=e48]:
+            - generic [ref=e49]: "1"
+            - generic [ref=e51]: "6"
+        - generic [ref=e54]:
+          - button "(뉴트럴/글로우) 베이비바닐라" [ref=e56] [cursor=pointer]:
+            - img "(뉴트럴/글로우) 베이비바닐라" [ref=e58]
+          - button "(뉴트럴/매트) 베이비로즈" [ref=e60] [cursor=pointer]:
+            - img "(뉴트럴/매트) 베이비로즈" [ref=e62]
+          - button "(쿨/글로우) 베이비버니" [ref=e64] [cursor=pointer]:
+            - img "(쿨/글로우) 베이비버니" [ref=e66]
+          - button "(쿨/매트) 베이비엔젤" [ref=e68] [cursor=pointer]:
+            - img "(쿨/매트) 베이비엔젤" [ref=e70]
+          - button "(웜/글로우) 콜미베이비" [ref=e72] [cursor=pointer]:
+            - img "(웜/글로우) 콜미베이비" [ref=e74]
+          - button "(웜/매트) 낫유어베이비" [ref=e76] [cursor=pointer]:
+            - img "(웜/매트) 낫유어베이비" [ref=e78]
+          - button "(글로우) 버니로즈" [ref=e80] [cursor=pointer]:
+            - img "(글로우) 버니로즈" [ref=e82]
+          - button "(글로우) 플럼로즈" [ref=e84] [cursor=pointer]:
+            - img "(글로우) 플럼로즈" [ref=e86]
+          - button "(글로우) 프레쉬로즈" [ref=e88] [cursor=pointer]:
+            - img "(글로우) 프레쉬로즈" [ref=e90]
+          - button "(글로우) 애플로즈" [ref=e92] [cursor=pointer]:
+            - img "(글로우) 애플로즈" [ref=e94]
+          - button "(글로우) 스윗로즈" [ref=e96] [cursor=pointer]:
+            - img "(글로우) 스윗로즈" [ref=e98]
+          - button "(글로우) 마이로즈" [ref=e100] [cursor=pointer]:
+            - img "(글로우) 마이로즈" [ref=e102]
+          - button "(글로우) 코코로즈" [ref=e104] [cursor=pointer]:
+            - img "(글로우) 코코로즈" [ref=e106]
+          - button "(글로우) 스프링로즈" [ref=e108] [cursor=pointer]:
+            - img "(글로우) 스프링로즈" [ref=e110]
+          - button "(글로우) 허니로즈" [ref=e112] [cursor=pointer]:
+            - img "(글로우) 허니로즈" [ref=e114]
+          - button "(매트) 더스티로즈" [ref=e116] [cursor=pointer]:
+            - img "(매트) 더스티로즈" [ref=e118]
+          - button "(매트) 썸띵로즈" [ref=e120] [cursor=pointer]:
+            - img "(매트) 썸띵로즈" [ref=e122]
+          - button "(매트) 페탈로즈" [ref=e124] [cursor=pointer]:
+            - img "(매트) 페탈로즈" [ref=e126]
+          - button "(매트) 드라이드로즈" [ref=e128] [cursor=pointer]:
+            - img "(매트) 드라이드로즈" [ref=e130]
+          - button "(매트) 피치로즈" [ref=e132] [cursor=pointer]:
+            - img "(매트) 피치로즈" [ref=e134]
+          - button "(매트) 블러쉬드로즈" [ref=e136] [cursor=pointer]:
+            - img "(매트) 블러쉬드로즈" [ref=e138]
+          - button "(매트) 시나몬로즈" [ref=e140] [cursor=pointer]:
+            - img "(매트) 시나몬로즈" [ref=e142]
+          - button "(매트) 번트로즈" [ref=e144] [cursor=pointer]:
+            - img "(매트) 번트로즈" [ref=e146]
+          - button "(매트) 베이크드로즈" [ref=e148] [cursor=pointer]:
+            - img "(매트) 베이크드로즈" [ref=e150]
+      - generic [ref=e152]:
+        - generic [ref=e153]:
+          - generic [ref=e154]:
+            - button "퓌" [ref=e155] [cursor=pointer]
+            - generic [ref=e156]:
+              - button "좋아요" [ref=e157] [cursor=pointer]:
+                - img
+                - img [ref=e158]
+              - button "공유하기" [ref=e160] [cursor=pointer]:
+                - img [ref=e161]
+          - heading "[나연PICK 6컬러추가] 퓌 로즈 옵세션 스테이핏 틴트 24종 (글로우/매트)" [level=3] [ref=e164]
+          - generic [ref=e167]:
+            - generic [ref=e168]: 18,000원
+            - emphasis [ref=e169]: 38%
+            - button "11,000 원 ~ 정보 보기" [ref=e170] [cursor=pointer]:
+              - generic [ref=e171]:
+                - generic [ref=e172]: 11,000
+                - generic [ref=e173]: 원 ~
+              - generic [ref=e175]: 정보 보기
+            - paragraph [ref=e176]:
+              - text: (10g당 31,429
+              - generic [ref=e177]: 원~
+              - text: )
+          - list [ref=e179]:
+            - listitem [ref=e180]: 오늘드림
+            - listitem [ref=e181]: BEST
+          - generic [ref=e182]:
+            - button "평점 4.8 리뷰 1,624건 reviewProfileImage58369423 reviewProfileImage58369280 리뷰 더보기" [ref=e183]:
+              - generic [ref=e185]:
+                - generic [ref=e186]: 평점
+                - text: "4.8"
+              - button "리뷰 1,624건" [ref=e188] [cursor=pointer]
+              - button "reviewProfileImage58369423 reviewProfileImage58369280 리뷰 더보기" [ref=e189] [cursor=pointer]:
+                - img "reviewProfileImage58369423" [ref=e192]
+                - img "reviewProfileImage58369280" [ref=e195]
+                - generic [ref=e197]: 리뷰 더보기
+            - paragraph [ref=e198]:
+              - emphasis [ref=e199]: "242"
+              - text: 명이 보고 있어요
+        - generic [ref=e200]:
+          - button "옵션뷰레이어 열기" [ref=e201] [cursor=pointer]:
+            - generic [ref=e202]: 옵션뷰레이어 열기
+          - generic [ref=e203]:
+            - generic [ref=e206] [cursor=pointer]:
+              - generic [ref=e207]:
+                - checkbox "오늘드림으로 받아보시겠어요?" [ref=e208]
+                - img [ref=e209]
+              - generic [ref=e211]: 오늘드림으로 받아보시겠어요?
+            - generic [ref=e212]:
+              - button "선물" [ref=e213] [cursor=pointer]:
+                - generic [ref=e214]: 선물
+              - button "장바구니" [ref=e215] [cursor=pointer]:
+                - generic [ref=e216]: 장바구니
+              - button "바로구매" [ref=e217] [cursor=pointer]:
+                - generic [ref=e218]: 바로구매
+        - generic [ref=e219]:
+          - list [ref=e220]:
+            - listitem [ref=e221]:
+              - generic [ref=e222]: 결제혜택
+              - generic [ref=e224]:
+                - generic [ref=e226]:
+                  - paragraph [ref=e227]:
+                    - text: 올리브영 현대카드
+                    - strong [ref=e999]: 7만원
+                    - text: 쿠폰팩
+                  - paragraph [ref=e229]:
+                    - text: 올리브영 SOL통장
+                    - strong [ref=e1000]: 최대 20만원 혜택
+                - button "결제혜택 안내 자세히 보기" [ref=e231] [cursor=pointer]:
+                  - img [ref=e232]
+            - listitem [ref=e234]:
+              - generic [ref=e235]: 적립
+              - generic [ref=e237]:
+                - paragraph [ref=e240]:
+                  - text: CJ ONE 포인트
+                  - strong [ref=e241]: 최대 1%
+                  - text: 적립 예상
+                - button "적립 안내 자세히 보기" [ref=e242] [cursor=pointer]:
+                  - img [ref=e243]
+            - listitem [ref=e245]:
+              - generic [ref=e246]: 일반배송
+              - generic [ref=e247]:
+                - generic [ref=e248]:
+                  - generic [ref=e249]:
+                    - paragraph [ref=e250]: 2,500원 (20,000원 이상 무료배송)
+                    - generic [ref=e252]: 평균 3일 이내 도착
+                    - strong [ref=e253]: 예약배송 4월 19일부터 배송시작
+                  - button "일반 배송 안내 자세히 보기" [ref=e254] [cursor=pointer]:
+                    - img [ref=e255]
+                - generic [ref=e257]:
+                  - generic [ref=e258]:
+                    - img "증정)26년 4월 올리브 키트" [ref=e261]
+                    - generic [ref=e262]:
+                      - strong [ref=e263]: "[소진완료] 오늘드림, 픽업 주문 시 증정 미제공"
+                      - paragraph [ref=e264]: 전 회원 색조화장품 제품 포함 관련상품 40,000원 이상 구매시 증정품 1개 선착순 제공
+                  - button "증정품 안내 자세히 보기" [ref=e265] [cursor=pointer]:
+                    - img [ref=e266]
+            - listitem [ref=e268]:
+              - generic [ref=e269]: 오늘드림
+              - generic [ref=e271]:
+                - generic [ref=e273]:
+                  - paragraph [ref=e274]: 2,500원 또는 5,000원 (3만원이상 무료)
+                  - paragraph [ref=e275]: 지금 주문하면 오늘 도착 또는 매장 픽업 가능!
+                - button "오늘드림 안내 자세히 보기" [ref=e276] [cursor=pointer]:
+                  - img [ref=e277]
+            - listitem [ref=e279]:
+              - generic [ref=e280]: 픽업
+              - generic [ref=e282]:
+                - paragraph [ref=e285]: 매장에서 무료픽업 가능
+                - button "픽업 안내 자세히 보기" [ref=e286] [cursor=pointer]:
+                  - img [ref=e287]
+          - button "구매 가능한 올영매장 찾기" [ref=e289] [cursor=pointer]:
+            - generic [ref=e290]: 구매 가능한 올영매장 찾기
+          - list [ref=e293]:
+            - listitem [ref=e294]:
+              - button "4-3차_립_무지개맨션":
+                - img "4-3차_립_무지개맨션" [ref=e295] [cursor=pointer]
+      - generic [ref=e297]:
+        - tablist [ref=e300]:
+          - button "상품설명" [ref=e301] [cursor=pointer]:
+            - generic [ref=e303]: 상품설명
+          - button "리뷰&셔터 1,624" [active] [pressed] [ref=e304] [cursor=pointer]:
+            - generic [ref=e306]:
+              - text: 리뷰&셔터
+              - generic [ref=e307]: 1,624
+          - button "Q&A 36" [ref=e308] [cursor=pointer]:
+            - generic [ref=e310]:
+              - text: Q&A
+              - generic [ref=e311]: "36"
+        - generic [ref=e1004]:
+          - generic:
+            - heading "리뷰" [level=2] [ref=e1006]
+            - generic [ref=e1008]:
+              - generic [ref=e1009]:
+                - generic [ref=e1011]:
+                  - generic [ref=e1013]:
+                    - img [ref=e1016]
+                    - img [ref=e1020]
+                    - img [ref=e1024]
+                    - img [ref=e1028]
+                    - generic [ref=e1032]:
+                      - img [ref=e1033]
+                      - img [ref=e1036]
+                    - generic [ref=e1038]: "4.8"
+                  - generic [ref=e1039]: 총 1,624건
+                - generic [ref=e1043]:
+                  - img "포토리뷰 이미지 1" [ref=e1047] [cursor=pointer]
+                  - img "포토리뷰 이미지 2" [ref=e1051] [cursor=pointer]
+                  - img "포토리뷰 이미지 3" [ref=e1055] [cursor=pointer]
+                  - img "포토리뷰 이미지 4" [ref=e1059] [cursor=pointer]
+                  - generic [ref=e1061] [cursor=pointer]:
+                    - img "포토리뷰 이미지 5" [ref=e1063]
+                    - generic [ref=e1064]: "3"
+                  - img "포토리뷰 이미지 6" [ref=e1068] [cursor=pointer]
+                  - img "포토리뷰 이미지 7" [ref=e1072] [cursor=pointer]
+                  - generic [ref=e1074] [cursor=pointer]:
+                    - img "포토리뷰 이미지 8" [ref=e1076]
+                    - generic [ref=e1077]: 더보기
+                - list [ref=e1079]:
+                  - listitem [ref=e1080]:
+                    - generic [ref=e1081]:
+                      - generic [ref=e1082]: 발색력
+                      - generic [ref=e1083]: 아주 만족해요
+                    - generic [ref=e1085]: 79%
+                  - listitem [ref=e1086]:
+                    - generic [ref=e1087]:
+                      - generic [ref=e1088]: 지속력
+                      - generic [ref=e1089]: 지속이 오래돼요
+                    - generic [ref=e1091]: 63%
+                  - listitem [ref=e1092]:
+                    - generic [ref=e1093]:
+                      - generic [ref=e1094]: 발림성
+                      - generic [ref=e1095]: 아주 만족해요
+                    - generic [ref=e1097]: 81%
+                  - listitem [ref=e1098]:
+                    - generic [ref=e1099]:
+                      - generic [ref=e1100]: 수분감
+                      - generic [ref=e1101]: 아주 촉촉해요
+                    - generic [ref=e1103]: 56%
+              - button "자세히 보기" [ref=e1106] [cursor=pointer]:
+                - generic [ref=e1107]:
+                  - text: 자세히 보기
+                  - img [ref=e1109]
+            - generic "이 상품을 태그한 셔터 게시물" [ref=e1113]:
+              - generic [ref=e1114]:
+                - generic "이 상품을 태그한 셔터 게시물" [ref=e1115]:
+                  - generic [ref=e1116]:
+                    - generic [ref=e1117]: 이 상품을 태그한 셔터 게시물
+                    - generic [ref=e1118] [cursor=pointer]:
+                      - text: 더보기
+                      - img [ref=e1120]
+                - generic [ref=e1123]:
+                  - generic [ref=e1125]:
+                    - generic [ref=e1128] [cursor=pointer]:
+                      - img "비디오 썸네일" [ref=e1130]
+                      - generic:
+                        - generic:
+                          - img
+                    - paragraph [ref=e1134]: 핑크 좋아하는 girl들 다 모여 .. 🌸 퓌 로즈 옵세션 틴트 신상 나왔는데 이거 완전 벚꽃맛 ㅠ.ㅠ 🌹퓌 로즈 옵세션 틴트 <기존 인기컬러 2가지> (인기) 스윗로즈 (인기) 블러쉬드 로즈 <신규 메인컬러 2가지> (NEW, 나연픽) 베이비로즈 (NEW, BEST) 베이비바닐라 우리 나연웅니랑 커플템 하자구 .. 🎀🩷 퓌 로즈옵세션 틴트 NEW 베이비로즈 에디션 4월 런칭 프로모션중🌹🪽 ☆4월 올영라이브(4/8) 18,000 → 9,900원(45% off) ☆4월 한 달간(4/1~4/30) 18,000 → 11,500원(36% off)
+                  - generic [ref=e1136]:
+                    - generic [ref=e1139] [cursor=pointer]:
+                      - img "비디오 썸네일" [ref=e1141]
+                      - generic:
+                        - generic:
+                          - img
+                    - paragraph [ref=e1145]: "#제품제공 역대급 신상 떴다...💗 아니아니 이번 퓌 화보 무슨 일이야 나연에게 영감 받은 베이비로즈 컬러와 함께한 화본데 이 메이크업 진짜 완내스🥹 바로 따라해보기 ~~ 립은 무조건 나연 pick 컬러인 MN04 베이비로즈 컬러 사용해줬구 아이메이크업이랑 치크는 최~대한 비슷하게 맞춰봤는데 어때? (원래는 퓌 푸딩팟 PK03 베이비& 아이팔레트 06 모어댄 로즈래) 이정도면 테무 나연 가눙할까 . . . 아무튼 !! 이번 컬러 너무~ 예쁘니까 다들 여리한 로즈 무드 좋아하면 이 제품으로 퓌 X 나연 화보 메이크업 도전해봐! @fwee_makeup 영상 속 사용 컬러 ♥ fwee 로즈 옵세션 틴트 MN04베이비로즈 #퓌 #로즈옵세션 #베이비로즈 #BabyRose"
+                  - generic [ref=e1147]:
+                    - generic [ref=e1150] [cursor=pointer]:
+                      - img "비디오 썸네일" [ref=e1152]
+                      - generic:
+                        - generic:
+                          - img
+                    - paragraph [ref=e1156]: 이중 니취향 하나쯤은 있겠지 쫀쫀 글로시틴트 모음.zip 📌제품정보 -얼터너티브 스테레오 립 포션 슈가 글레이즈 No.02 로즈볼 -라카 맥시 글레이어 틴트 604 미스티 -삐아 럭키 샤인 틴트 06 로지행 -네이밍 오버 듀 글로시 립 틴트 피크 -퓌 로즈 옵세션 틴트 GN01 마이로즈
+                  - generic [ref=e1158]:
+                    - generic [ref=e1161] [cursor=pointer]:
+                      - img "비디오 썸네일" [ref=e1163]
+                      - generic:
+                        - generic:
+                          - img
+                    - paragraph [ref=e1167]: 안 보면 손해다 손해.. 라이트 톤이면 쿨톤도 어울려요! 내가 쿨톤이거덩..
+                  - generic [ref=e1169]:
+                    - generic [ref=e1172] [cursor=pointer]:
+                      - img "비디오 썸네일" [ref=e1174]
+                      - generic:
+                        - generic:
+                          - img
+                    - paragraph [ref=e1178]: 색조맛집 퓌의 4월 신상 립틴트! 퓌 로즈 옵세션 스테이 핏 립 틴트 .. 🌷 매트버전 , 글로우 버전 두가지가 있는데 오늘은 글로우 버전으로 낋여왔어요 세가지 컬러 다 너무 예쁘지만 저의 원픽은 콜미베이비.. 👼🏻 봄웜라 분들은 묻지도 따지지도 말고 겟하세용
+                  - generic [ref=e1180]:
+                    - generic [ref=e1183] [cursor=pointer]:
+                      - img "비디오 썸네일" [ref=e1185]
+                      - generic:
+                        - generic:
+                          - img
+                    - paragraph [ref=e1189]: 박대리의 회사 필수 루틴
+                  - generic [ref=e1191]:
+                    - generic [ref=e1194] [cursor=pointer]:
+                      - img "비디오 썸네일" [ref=e1196]
+                      - generic:
+                        - generic:
+                          - img
+                    - paragraph [ref=e1200]: 퓌 로즈옵세션 스테이핏 틴트 봄웜라지만 쿨톤 틴트 못 참지~ 퓌 신상 로즈옵세션 틴트 사봤어요 매트하니 베이스로 바르기 딱 인듯 웜톤이지만 나쁘지 않게 어울렸어요 지속력도 굿~ 블러셔로도 바르니 예뻤습니다 ! 자주 쓸 것 같아용
+                  - generic [ref=e1202]:
+                    - generic [ref=e1205] [cursor=pointer]:
+                      - img "비디오 썸네일" [ref=e1207]
+                      - generic:
+                        - generic:
+                          - img
+                    - paragraph [ref=e1211]: 조금...아니 조금많이 아쉬울지도🥹
+                  - generic [ref=e1213]:
+                    - generic [ref=e1216] [cursor=pointer]:
+                      - img "비디오 썸네일" [ref=e1218]
+                      - generic:
+                        - generic:
+                          - img
+                    - paragraph [ref=e1222]: 어두운 피부는 어두운 립을 발라.. -에스쁘아 꾸뛰르 립틴트 피팅 블러, 프림 누드 -퓌 로즈 옵세션 스테이핏 틴트, 코코로즈
+                  - generic [ref=e1224]:
+                    - generic [ref=e1227] [cursor=pointer]:
+                      - img "비디오 썸네일" [ref=e1229]
+                      - generic:
+                        - generic:
+                          - img
+                    - paragraph [ref=e1233]: 발색이 너무 고급스러워요…💞 부드럽게 발리면서 촉촉하게 코팅된 느낌이라 입술이 영롱하고 도톰도톰해보여요!!! 감동ㅠㅠ 발색도 오래 지속돼서 데일리로 바르기 딱 좋아요~ 로즈 컬러 18개 다 소장하고 싶을 정도예요…ㅋㅋㅋ 💗 팁도 입술라인 따라 바르기 쉽고 양조절도 편함 역시 립은 퓌^3^
+            - generic [ref=e1235]:
+              - generic [ref=e1238]:
+                - generic [ref=e1239]:
+                  - list [ref=e1246]:
+                    - listitem [ref=e1247]:
+                      - button "리뷰 유형" [ref=e1249] [cursor=pointer]:
+                        - generic [ref=e1250]:
+                          - generic [ref=e1251]: 리뷰 유형
+                          - img [ref=e1253]
+                    - listitem [ref=e1255]:
+                      - button "상품 옵션" [ref=e1257] [cursor=pointer]:
+                        - generic [ref=e1258]:
+                          - generic [ref=e1259]: 상품 옵션
+                          - img [ref=e1261]
+                    - listitem [ref=e1263]:
+                      - button "피부 필터" [ref=e1265] [cursor=pointer]:
+                        - generic [ref=e1266]:
+                          - generic [ref=e1267]: 피부 필터
+                          - img [ref=e1269]
+                  - button "내 피부 맞춤" [ref=e1276] [cursor=pointer]
+                - button "유용한 순" [ref=e1281] [cursor=pointer]:
+                  - generic [ref=e1282]: 유용한 순
+                  - img [ref=e1284]
+              - list [ref=e1286]
+    - complementary [ref=e1287]:
+      - button "페이지 상단으로 이동" [ref=e1288] [cursor=pointer]:
+        - generic [ref=e1289]: 페이지 상단으로 이동
+  - alert [ref=e412]
+  - generic:
+    - generic:
+      - generic:
+        - generic [ref=e413]:
+          - heading "제품 발색" [level=2] [ref=e414]
+          - button "닫기" [ref=e415] [cursor=pointer]:
+            - img [ref=e416]
+            - generic [ref=e419]: 닫기
+        - generic:
+          - generic:
+            - generic [ref=e420]:
+              - generic:
+                - generic:
+                  - paragraph: (뉴트럴/글로우) 베이비바닐라
+                  - generic:
+                    - generic:
+                      - img "(뉴트럴/글로우) 베이비바닐라"
+                - generic:
+                  - paragraph: (뉴트럴/매트) 베이비로즈
+                  - generic:
+                    - generic:
+                      - img "(뉴트럴/매트) 베이비로즈"
+                - generic:
+                  - paragraph: (쿨/글로우) 베이비버니
+                  - generic:
+                    - generic:
+                      - img "(쿨/글로우) 베이비버니"
+                - generic:
+                  - paragraph: (쿨/매트) 베이비엔젤
+                  - generic:
+                    - generic:
+                      - img "(쿨/매트) 베이비엔젤"
+                - generic:
+                  - paragraph: (웜/글로우) 콜미베이비
+                  - generic:
+                    - generic:
+                      - img "(웜/글로우) 콜미베이비"
+                - generic:
+                  - paragraph: (웜/매트) 낫유어베이비
+                  - generic:
+                    - generic:
+                      - img "(웜/매트) 낫유어베이비"
+                - generic:
+                  - paragraph: (글로우) 버니로즈
+                  - generic:
+                    - generic:
+                      - img "(글로우) 버니로즈"
+                - generic:
+                  - paragraph: (글로우) 플럼로즈
+                  - generic:
+                    - generic:
+                      - img "(글로우) 플럼로즈"
+                - generic:
+                  - paragraph: (글로우) 프레쉬로즈
+                  - generic:
+                    - generic:
+                      - img "(글로우) 프레쉬로즈"
+                - generic:
+                  - paragraph: (글로우) 애플로즈
+                  - generic:
+                    - generic:
+                      - img "(글로우) 애플로즈"
+                - generic:
+                  - paragraph: (글로우) 스윗로즈
+                  - generic:
+                    - generic:
+                      - img "(글로우) 스윗로즈"
+                - generic:
+                  - paragraph: (글로우) 마이로즈
+                  - generic:
+                    - generic:
+                      - img "(글로우) 마이로즈"
+                - generic:
+                  - paragraph: (글로우) 코코로즈
+                  - generic:
+                    - generic:
+                      - img "(글로우) 코코로즈"
+                - generic:
+                  - paragraph: (글로우) 스프링로즈
+                  - generic:
+                    - generic:
+                      - img "(글로우) 스프링로즈"
+                - generic:
+                  - paragraph: (글로우) 허니로즈
+                  - generic:
+                    - generic:
+                      - img "(글로우) 허니로즈"
+                - generic:
+                  - paragraph: (매트) 더스티로즈
+                  - generic:
+                    - generic:
+                      - img "(매트) 더스티로즈"
+                - generic:
+                  - paragraph: (매트) 썸띵로즈
+                  - generic:
+                    - generic:
+                      - img "(매트) 썸띵로즈"
+                - generic:
+                  - paragraph: (매트) 페탈로즈
+                  - generic:
+                    - generic:
+                      - img "(매트) 페탈로즈"
+                - generic:
+                  - paragraph: (매트) 드라이드로즈
+                  - generic:
+                    - generic:
+                      - img "(매트) 드라이드로즈"
+                - generic:
+                  - paragraph: (매트) 피치로즈
+                  - generic:
+                    - generic:
+                      - img "(매트) 피치로즈"
+                - generic:
+                  - paragraph: (매트) 블러쉬드로즈
+                  - generic:
+                    - generic:
+                      - img "(매트) 블러쉬드로즈"
+                - generic:
+                  - paragraph: (매트) 시나몬로즈
+                  - generic:
+                    - generic:
+                      - img "(매트) 시나몬로즈"
+                - generic:
+                  - paragraph: (매트) 번트로즈
+                  - generic:
+                    - generic:
+                      - img "(매트) 번트로즈"
+                - generic:
+                  - paragraph: (매트) 베이크드로즈
+                  - generic:
+                    - generic:
+                      - img "(매트) 베이크드로즈"
+            - generic [ref=e421]:
+              - generic:
+                - img "(뉴트럴/글로우) 베이비바닐라" [ref=e425] [cursor=pointer]
+                - img "(뉴트럴/매트) 베이비로즈" [ref=e429] [cursor=pointer]
+                - img "(쿨/글로우) 베이비버니" [ref=e433] [cursor=pointer]
+                - img "(쿨/매트) 베이비엔젤" [ref=e437] [cursor=pointer]
+                - img "(웜/글로우) 콜미베이비" [ref=e441] [cursor=pointer]
+                - img "(웜/매트) 낫유어베이비" [ref=e445] [cursor=pointer]
+                - img "(글로우) 버니로즈" [ref=e449] [cursor=pointer]
+                - img "(글로우) 플럼로즈" [ref=e453] [cursor=pointer]
+                - img "(글로우) 프레쉬로즈" [ref=e457] [cursor=pointer]
+                - img "(글로우) 애플로즈" [ref=e461] [cursor=pointer]
+                - img "(글로우) 스윗로즈" [ref=e465] [cursor=pointer]
+                - img "(글로우) 마이로즈" [ref=e469] [cursor=pointer]
+                - img "(글로우) 코코로즈" [ref=e473] [cursor=pointer]
+                - img "(글로우) 스프링로즈" [ref=e477] [cursor=pointer]
+                - img "(글로우) 허니로즈" [ref=e481] [cursor=pointer]
+                - img "(매트) 더스티로즈" [ref=e485] [cursor=pointer]
+                - img "(매트) 썸띵로즈" [ref=e489] [cursor=pointer]
+                - img "(매트) 페탈로즈" [ref=e493] [cursor=pointer]
+                - img "(매트) 드라이드로즈" [ref=e497] [cursor=pointer]
+                - img "(매트) 피치로즈" [ref=e501] [cursor=pointer]
+                - img "(매트) 블러쉬드로즈" [ref=e505] [cursor=pointer]
+                - img "(매트) 시나몬로즈" [ref=e509] [cursor=pointer]
+                - img "(매트) 번트로즈" [ref=e513] [cursor=pointer]
+                - img "(매트) 베이크드로즈" [ref=e517] [cursor=pointer]
+  - generic:
+    - generic:
+      - generic:
+        - generic [ref=e518]:
+          - heading "색상 비교" [level=2] [ref=e519]
+          - button "닫기" [ref=e520] [cursor=pointer]:
+            - img [ref=e521]
+            - generic [ref=e524]: 닫기
+        - generic:
+          - generic [ref=e525]:
+            - generic:
+              - paragraph:
+                - text: 비교할 색상을 아래에서
+                - text: 선택해 주세요!
+              - list:
+                - listitem: 밝기에 따라 색상차이가 있을 수 있습니다.
+          - generic:
+            - generic [ref=e526]:
+              - generic:
+                - img "(뉴트럴/글로우) 베이비바닐라" [ref=e530] [cursor=pointer]
+                - img "(뉴트럴/매트) 베이비로즈" [ref=e535] [cursor=pointer]
+                - img "(쿨/글로우) 베이비버니" [ref=e540] [cursor=pointer]
+                - img "(쿨/매트) 베이비엔젤" [ref=e545] [cursor=pointer]
+                - img "(웜/글로우) 콜미베이비" [ref=e550] [cursor=pointer]
+                - img "(웜/매트) 낫유어베이비" [ref=e555] [cursor=pointer]
+                - img "(글로우) 버니로즈" [ref=e560] [cursor=pointer]
+                - img "(글로우) 플럼로즈" [ref=e565] [cursor=pointer]
+                - img "(글로우) 프레쉬로즈" [ref=e570] [cursor=pointer]
+                - img "(글로우) 애플로즈" [ref=e575] [cursor=pointer]
+                - img "(글로우) 스윗로즈" [ref=e580] [cursor=pointer]
+                - img "(글로우) 마이로즈" [ref=e585] [cursor=pointer]
+                - img "(글로우) 코코로즈" [ref=e590] [cursor=pointer]
+                - img "(글로우) 스프링로즈" [ref=e595] [cursor=pointer]
+                - img "(글로우) 허니로즈" [ref=e600] [cursor=pointer]
+                - img "(매트) 더스티로즈" [ref=e605] [cursor=pointer]
+                - img "(매트) 썸띵로즈" [ref=e610] [cursor=pointer]
+                - img "(매트) 페탈로즈" [ref=e615] [cursor=pointer]
+                - img "(매트) 드라이드로즈" [ref=e620] [cursor=pointer]
+                - img "(매트) 피치로즈" [ref=e625] [cursor=pointer]
+                - img "(매트) 블러쉬드로즈" [ref=e630] [cursor=pointer]
+                - img "(매트) 시나몬로즈" [ref=e635] [cursor=pointer]
+                - img "(매트) 번트로즈" [ref=e640] [cursor=pointer]
+                - img "(매트) 베이크드로즈" [ref=e645] [cursor=pointer]
+            - button "제품 발색 자세히 보기" [ref=e647] [cursor=pointer]:
+              - generic [ref=e648]: 제품 발색 자세히 보기
+  - generic:
+    - generic:
+      - generic:
+        - generic [ref=e649]:
+          - heading "공유하기" [level=2] [ref=e650]
+          - button "닫기" [ref=e651] [cursor=pointer]:
+            - img [ref=e652]
+            - generic [ref=e655]: 닫기
+        - generic [ref=e656]:
+          - list:
+            - listitem:
+              - button "카카오톡으로 공유하기" [ref=e657] [cursor=pointer]:
+                - generic [ref=e658]: 카카오톡으로 공유하기
+            - listitem:
+              - button "네이버 블로그로 공유하기" [ref=e659] [cursor=pointer]:
+                - generic [ref=e660]: 네이버 블로그로 공유하기
+            - listitem:
+              - button "페이스북으로 공유하기" [ref=e661] [cursor=pointer]:
+                - generic [ref=e662]: 페이스북으로 공유하기
+            - listitem:
+              - button "라인으로 공유하기" [ref=e663] [cursor=pointer]:
+                - generic [ref=e664]: 라인으로 공유하기
+            - listitem:
+              - button "X(트위터)로 공유하기" [ref=e665] [cursor=pointer]:
+                - generic [ref=e666]: X(트위터)로 공유하기
+            - listitem:
+              - button "URL 복사하기" [ref=e667] [cursor=pointer]:
+                - generic [ref=e668]: URL 복사하기
+  - generic:
+    - generic:
+      - generic:
+        - generic [ref=e669]:
+          - heading "쿠폰 받기" [level=2] [ref=e670]
+          - button "닫기" [ref=e671] [cursor=pointer]:
+            - img [ref=e672]
+            - generic [ref=e675]: 닫기
+        - generic:
+          - list:
+            - listitem [ref=e676]:
+              - strong [ref=e677]: 장바구니 쿠폰은 주문 당 최대 1장 적용할 수 있어요.
+            - listitem [ref=e678]: 상품 쿠폰은 장바구니 쿠폰과 중복 사용 가능합니다.
+            - listitem [ref=e679]: 일부 상품은 쿠폰이 적용되지 않으니 주문/결제 시 꼭 확인해 주세요.
+        - button "쿠폰 받기" [disabled] [ref=e681]:
+          - generic [ref=e682]: 쿠폰 받기
+  - generic:
+    - generic:
+      - generic:
+        - generic [ref=e683]:
+          - heading "배송지 변경" [level=2] [ref=e684]
+          - button "닫기" [ref=e685] [cursor=pointer]:
+            - img [ref=e686]
+            - generic [ref=e689]: 닫기
+        - generic:
+          - list [ref=e690]
+          - paragraph [ref=e691]: 배송지는 최대 20개까지 등록할 수 있어요.
+        - button "새 배송지 추가" [ref=e693] [cursor=pointer]:
+          - generic [ref=e694]: 새 배송지 추가
+  - generic:
+    - generic:
+      - generic:
+        - generic [ref=e695]:
+          - heading "일반배송 안내" [level=2] [ref=e696]
+          - button "닫기" [ref=e697] [cursor=pointer]:
+            - img [ref=e698]
+            - generic [ref=e701]: 닫기
+        - generic:
+          - article:
+            - heading "기본 배송비" [level=3]
+            - table "기본 배송비 가격 안내표" [ref=e702]:
+              - caption [ref=e703]: 기본 배송비 가격 안내표
+              - rowgroup [ref=e707]:
+                - row "일반배송 2,500원" [ref=e708]:
+                  - rowheader "일반배송" [ref=e709]
+                  - cell "2,500원" [ref=e710]
+          - article:
+            - heading "추가 배송비" [level=3]
+            - table "추가 배송비 가격 안내표" [ref=e711]:
+              - caption [ref=e712]: 추가 배송비 가격 안내표
+              - rowgroup [ref=e716]:
+                - row "도서산간 2,500원" [ref=e717]:
+                  - rowheader "도서산간" [ref=e718]
+                  - cell "2,500원" [ref=e719]
+                - row "제주지역 2,500원" [ref=e720]:
+                  - rowheader "제주지역" [ref=e721]
+                  - cell "2,500원" [ref=e722]
+                - row "제주도서산간 7,000원" [ref=e723]:
+                  - rowheader "제주도서산간" [ref=e724]
+                  - cell "7,000원" [ref=e725]
+          - list:
+            - listitem [ref=e726]: 해당 상품은 올리브영에서 직접 배송되는 상품입니다.
+            - listitem [ref=e727]: 장바구니 및 주문결제 단계에서 추가 배송비를 확인할 수 있습니다.
+          - generic:
+            - heading "예약배송" [level=3]
+            - list:
+              - listitem [ref=e728]: 해당 상품은 예약 배송 상품으로 상품이 입고된 후 지정된 일자에 출고 될 예정입니다.
+        - button "확인" [ref=e730] [cursor=pointer]:
+          - generic [ref=e731]: 확인
+  - generic:
+    - generic:
+      - generic:
+        - generic [ref=e732]:
+          - heading "오늘드림 서비스 안내" [level=2] [ref=e733]
+          - button "닫기" [ref=e734] [cursor=pointer]:
+            - img [ref=e735]
+            - generic [ref=e738]: 닫기
+        - generic:
+          - article:
+            - heading "배송비 안내" [level=3]
+            - generic [ref=e739]: 당일 20시 이전 주문에 한함
+            - table "오늘드림 배송비 안내 표" [ref=e740]:
+              - caption [ref=e741]: 오늘드림 배송비 안내 표
+              - rowgroup [ref=e745]:
+                - row "3만원 이상 무료 배송" [ref=e746]:
+                  - rowheader "3만원 이상" [ref=e747]
+                  - cell "무료 배송" [ref=e748]
+                - row "3만원 미만 2,500원 빠름배송(주문 후 +3시간) 5,000원" [ref=e749]:
+                  - rowheader "3만원 미만" [ref=e750]
+                  - cell "2,500원 빠름배송(주문 후 +3시간) 5,000원" [ref=e751]:
+                    - text: 2,500원
+                    - text: 빠름배송(주문 후 +3시간) 5,000원
+          - article:
+            - heading "교환, 반품 안내" [level=3]
+            - table "교환, 반품 안내 표" [ref=e752]:
+              - caption [ref=e753]: 교환, 반품 안내 표
+              - rowgroup [ref=e757]:
+                - row "교환 회수 기사님을 통해 물류센터로 상품 교환(단, 매장을 통한 교환 불가)" [ref=e758]:
+                  - rowheader "교환" [ref=e759]
+                  - cell "회수 기사님을 통해 물류센터로 상품 교환(단, 매장을 통한 교환 불가)" [ref=e760]
+                - row "반품 (택1) 회수 택배 기사님을 통해 물류센터로 반품" [ref=e761]:
+                  - rowheader "반품 (택1)" [ref=e762]
+                  - cell "회수 택배 기사님을 통해 물류센터로 반품" [ref=e763]
+                - row "오프라인 매장에 방문하여 직접 반품" [ref=e764]:
+                  - cell "오프라인 매장에 방문하여 직접 반품" [ref=e765]
+        - button "확인" [ref=e767] [cursor=pointer]:
+          - generic [ref=e768]: 확인
+  - generic:
+    - generic:
+      - generic:
+        - generic [ref=e769]:
+          - heading "픽업 서비스 안내" [level=2] [ref=e770]
+          - button "닫기" [ref=e771] [cursor=pointer]:
+            - img [ref=e772]
+            - generic [ref=e775]: 닫기
+        - generic:
+          - paragraph: 온라인몰에서 주문 후 매장에서 상품을 픽업하는 서비스입니다.
+          - generic:
+            - generic [ref=e776]: 상품구매
+            - generic: 다음단계
+            - generic [ref=e777]: 교환권받기
+            - generic: 다음단계
+            - generic [ref=e778]: 매장방문
+            - generic: 다음단계
+            - generic [ref=e779]: 상품픽업
+          - list:
+            - listitem [ref=e780]: 매장별 보유 재고는 상이할 수 있습니다.
+        - button "픽업 가능한 올영매장 찾기" [ref=e782] [cursor=pointer]:
+          - generic [ref=e783]: 픽업 가능한 올영매장 찾기
+  - generic:
+    - generic:
+      - generic:
+        - generic [ref=e784]:
+          - heading "결제 혜택" [level=2] [ref=e785]
+          - button "닫기" [ref=e786] [cursor=pointer]:
+            - img [ref=e787]
+            - generic [ref=e790]: 닫기
+        - generic:
+          - list:
+            - listitem:
+              - button "올리브영 현대카드 7만원 쿠폰팩 올리브영 현대카드 결제 전용 26.4.1 ~ 26.4.30":
+                - generic [ref=e791] [cursor=pointer]:
+                  - generic [ref=e792]:
+                    - text: 올리브영 현대카드
+                    - strong [ref=e793]: 7만원
+                    - text: 쿠폰팩
+                  - paragraph: 올리브영 현대카드 결제 전용
+                  - paragraph: 26.4.1 ~ 26.4.30
+                - img [ref=e794] [cursor=pointer]
+            - listitem:
+              - button "올리브영 SOL통장 가입/이용 시 최대 이자 9만원(세전)+11만원 리워드 26.4.13 ~ 26.12.31":
+                - generic [ref=e796] [cursor=pointer]:
+                  - generic: 올리브영 SOL통장 가입/이용 시
+                  - paragraph: 최대 이자 9만원(세전)+11만원 리워드
+                  - paragraph: 26.4.13 ~ 26.12.31
+                - img [ref=e797] [cursor=pointer]
+            - listitem:
+              - button "하나 나라사랑카드 매월 20% 캐시백 최소 이용 금액 없음, 최대 5천원까지 26.4.1 ~ 26.12.31":
+                - generic [ref=e799] [cursor=pointer]:
+                  - generic: 하나 나라사랑카드 매월 20% 캐시백
+                  - paragraph: 최소 이용 금액 없음, 최대 5천원까지
+                  - paragraph: 26.4.1 ~ 26.12.31
+                - img [ref=e800] [cursor=pointer]
+            - listitem:
+              - button "신한 나라사랑카드 매월 3천원 캐시백 3천원 이상 결제 시 26.4.1 ~ 26.12.31":
+                - generic [ref=e802] [cursor=pointer]:
+                  - generic: 신한 나라사랑카드 매월 3천원 캐시백
+                  - paragraph: 3천원 이상 결제 시
+                  - paragraph: 26.4.1 ~ 26.12.31
+                - img [ref=e803] [cursor=pointer]
+            - listitem:
+              - button "네이버페이 2천원 적립 HI-TEEN 전용 1만원 이상 2천원 적립 26.4.1 ~ 26.4.30":
+                - generic [ref=e805] [cursor=pointer]:
+                  - generic: 네이버페이 2천원 적립
+                  - paragraph: HI-TEEN 전용 1만원 이상 2천원 적립
+                  - paragraph: 26.4.1 ~ 26.4.30
+                - img [ref=e806] [cursor=pointer]
+        - button "확인" [ref=e809] [cursor=pointer]:
+          - generic [ref=e810]: 확인
+  - generic:
+    - generic:
+      - generic:
+        - generic [ref=e811]:
+          - heading "일반배송 증정 안내" [level=2] [ref=e812]
+          - button "닫기" [ref=e813] [cursor=pointer]:
+            - img [ref=e814]
+            - generic [ref=e817]: 닫기
+        - generic:
+          - generic:
+            - generic:
+              - img "증정)26년 4월 올리브 키트" [ref=e820]
+              - generic [ref=e821]: "[소진완료]전 회원 색조화장품 제품 포함 관련상품 40,000원 이상 구매시 증정품 1개 선착순 제공"
+            - article:
+              - table "증정품 안내 표" [ref=e822]:
+                - caption [ref=e823]: 증정품 안내 표
+                - rowgroup [ref=e827]:
+                  - row "증정품 증정)26년 4월 올리브 키트" [ref=e828]:
+                    - rowheader "증정품" [ref=e829]
+                    - cell "증정)26년 4월 올리브 키트" [ref=e830]
+                  - row "증정기간 26.04.01 ~ 선착순 한정" [ref=e831]:
+                    - rowheader "증정기간" [ref=e832]
+                    - cell "26.04.01 ~ 선착순 한정" [ref=e833]
+                  - row "증정대상 전 회원" [ref=e834]:
+                    - rowheader "증정대상" [ref=e835]
+                    - cell "전 회원" [ref=e836]
+          - list:
+            - listitem [ref=e837]: 증정품 이미지는 실제와 다를 수 있습니다.
+            - listitem [ref=e838]: 증정품은 주문 번호 당 1개씩 증정이 기본이며 구매 상품 n개당 N개씩 증정되는 경우도 있습니다. (구매 전 상세 내용을 필히 참고)
+            - listitem [ref=e839]: 본 행사는 온라인몰 단독 행사로 매장 행사와 상이할 수 있습니다.
+            - listitem [ref=e840]: 증정품은 판매 상품과 별개로 한정 운영되며 조기 소진될 수 있습니다.
+            - listitem [ref=e841]: 반품 시 증정품도 함게 반품해주셔야 합니다.
+            - listitem [ref=e842]: 오늘드림 증정품은 상품 상세페이지에서 오늘드림 주문 체크 시 확인 가능합니다.
+            - listitem [ref=e843]: 증정품은 증정 대상 회원에 한하여 제공됩니다.
+            - listitem [ref=e844]: 일부 제휴 업체 직배송 상품은 증정대상에서 제외됩니다.
+            - listitem [ref=e845]: 온라인몰 증정 소진 시 별도 고지없이 행사 종료될 수 있습니다.
+            - listitem [ref=e846]: 정확한 증정품 내역은 주문 후 '주문상세내역'에서 확인할 수 있습니다.
+        - button "확인" [ref=e848] [cursor=pointer]:
+          - generic [ref=e849]: 확인
+  - generic:
+    - generic:
+      - generic:
+        - generic [ref=e850]:
+          - heading "등급별 CJ ONE 포인트 적립" [level=2] [ref=e851]
+          - button "닫기" [ref=e852] [cursor=pointer]:
+            - img [ref=e853]
+            - generic [ref=e856]: 닫기
+        - generic:
+          - table "등급별 CJ ONE 포인트 적립률 표" [ref=e857]:
+            - caption [ref=e858]: 등급별 CJ ONE 포인트 적립률 표
+            - rowgroup [ref=e862]:
+              - row "등급 적립률" [ref=e863]:
+                - columnheader "등급" [ref=e864]
+                - columnheader "적립률" [ref=e865]
+            - rowgroup [ref=e866]:
+              - row "GOLD OLIVE 1%" [ref=e867]:
+                - rowheader "GOLD OLIVE" [ref=e868]:
+                  - generic [ref=e869]: GOLD OLIVE
+                - cell "1%" [ref=e870]:
+                  - generic [ref=e871]: 1%
+              - row "BLACK OLIVE 1%" [ref=e872]:
+                - rowheader "BLACK OLIVE" [ref=e873]:
+                  - generic [ref=e874]: BLACK OLIVE
+                - cell "1%" [ref=e875]:
+                  - generic [ref=e876]: 1%
+              - row "GREEN OLIVE 1%" [ref=e877]:
+                - rowheader "GREEN OLIVE" [ref=e878]:
+                  - generic [ref=e879]: GREEN OLIVE
+                - cell "1%" [ref=e880]:
+                  - generic [ref=e881]: 1%
+              - row "PINK OLIVE 0.5%" [ref=e882]:
+                - rowheader "PINK OLIVE" [ref=e883]:
+                  - generic [ref=e884]: PINK OLIVE
+                - cell "0.5%" [ref=e885]:
+                  - generic [ref=e886]: 0.5%
+              - row "BABY OLIVE 0.5%" [ref=e887]:
+                - rowheader "BABY OLIVE" [ref=e888]:
+                  - generic [ref=e889]: BABY OLIVE
+                - cell "0.5%" [ref=e890]:
+                  - generic [ref=e891]: 0.5%
+          - list:
+            - listitem [ref=e892]: 일부 제휴카드 / 임직원 카드 결제 시 0.5% 적립
+            - listitem [ref=e893]: 복합 결제 진행 시 포인트 적립액 상이 가능
+        - button "확인" [ref=e895] [cursor=pointer]:
+          - generic [ref=e896]: 확인
+    - generic:
+      - generic:
+        - generic [ref=e897]:
+          - heading "등급별 CJ ONE 포인트 적립" [level=2] [ref=e898]
+          - button "닫기" [ref=e899] [cursor=pointer]:
+            - img [ref=e900]
+            - generic [ref=e903]: 닫기
+        - generic:
+          - table "등급별 CJ ONE 포인트 적립률 표" [ref=e904]:
+            - caption [ref=e905]: 등급별 CJ ONE 포인트 적립률 표
+            - rowgroup [ref=e909]:
+              - row "등급 적립률" [ref=e910]:
+                - columnheader "등급" [ref=e911]
+                - columnheader "적립률" [ref=e912]
+            - rowgroup [ref=e913]:
+              - row "GOLD OLIVE 1%" [ref=e914]:
+                - rowheader "GOLD OLIVE" [ref=e915]:
+                  - generic [ref=e916]: GOLD OLIVE
+                - cell "1%" [ref=e917]:
+                  - generic [ref=e918]: 1%
+              - row "BLACK OLIVE 1%" [ref=e919]:
+                - rowheader "BLACK OLIVE" [ref=e920]:
+                  - generic [ref=e921]: BLACK OLIVE
+                - cell "1%" [ref=e922]:
+                  - generic [ref=e923]: 1%
+              - row "GREEN OLIVE 1%" [ref=e924]:
+                - rowheader "GREEN OLIVE" [ref=e925]:
+                  - generic [ref=e926]: GREEN OLIVE
+                - cell "1%" [ref=e927]:
+                  - generic [ref=e928]: 1%
+              - row "PINK OLIVE 0.5%" [ref=e929]:
+                - rowheader "PINK OLIVE" [ref=e930]:
+                  - generic [ref=e931]: PINK OLIVE
+                - cell "0.5%" [ref=e932]:
+                  - generic [ref=e933]: 0.5%
+              - row "BABY OLIVE 0.5%" [ref=e934]:
+                - rowheader "BABY OLIVE" [ref=e935]:
+                  - generic [ref=e936]: BABY OLIVE
+                - cell "0.5%" [ref=e937]:
+                  - generic [ref=e938]: 0.5%
+          - list:
+            - listitem [ref=e939]: 일부 제휴카드 / 임직원 카드 결제 시 0.5% 적립
+            - listitem [ref=e940]: 복합 결제 진행 시 포인트 적립액 상이 가능
+        - button "확인" [ref=e942] [cursor=pointer]:
+          - generic [ref=e943]: 확인
+  - contentinfo [ref=e944]:
+    - generic [ref=e945]:
+      - list [ref=e946]:
+        - listitem [ref=e947]:
+          - link "대표전화" [ref=e948] [cursor=pointer]:
+            - /url: tel:1577-4887
+            - img [ref=e949]
+            - generic [ref=e952]: 대표전화
+        - listitem [ref=e953]:
+          - link "1:1문의" [ref=e954] [cursor=pointer]:
+            - img [ref=e955]
+            - generic [ref=e958]: 1:1문의
+        - listitem [ref=e959]:
+          - link "고객센터" [ref=e960] [cursor=pointer]:
+            - img [ref=e961]
+            - generic [ref=e963]: 고객센터
+      - button "씨제이올리브영(주)" [ref=e964] [cursor=pointer]:
+        - generic [ref=e965]: 씨제이올리브영(주)
+        - img [ref=e966]
+      - generic [ref=e968]:
+        - link "인스타그램" [ref=e969] [cursor=pointer]:
+          - img [ref=e970]
+          - generic [ref=e972]: 인스타그램
+        - link "페이스북" [ref=e973] [cursor=pointer]:
+          - img [ref=e974]
+          - generic [ref=e976]: 페이스북
+        - link "카카오톡 플러스 친구" [ref=e977] [cursor=pointer]:
+          - img [ref=e978]
+          - generic [ref=e980]: 카카오톡 플러스 친구
+        - link "유튜브" [ref=e981] [cursor=pointer]:
+          - img [ref=e982]
+          - generic [ref=e984]: 유튜브
+      - generic [ref=e986]:
+        - link "이용약관과 정책" [ref=e988] [cursor=pointer]
+        - link "개인정보처리방침" [ref=e990] [cursor=pointer]
+        - link "청소년보호방침" [ref=e992] [cursor=pointer]
+        - link "법적고지" [ref=e994] [cursor=pointer]
+        - link "대량구매" [ref=e996] [cursor=pointer]
+      - link "APP 다운로드" [ref=e998] [cursor=pointer]

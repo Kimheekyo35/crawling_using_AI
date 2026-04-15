@@ -1,0 +1,17 @@
+[    1442ms] [LOG] JQMIGRATE: Logging is active @ https://static.oliveyoung.co.kr/pc-static-root/js/search/beta2.fix.js?dumm=20260414190751:20
+[    1443ms] [WARNING] JQMIGRATE: jQuery.browser is deprecated @ https://static.oliveyoung.co.kr/pc-static-root/js/search/beta2.fix.js?dumm=20260414190751:40
+[    1646ms] [LOG] _stonUseYnReqHeader = N @ https://static.oliveyoung.co.kr/pc-static-root/js/common/common.js?dumm=20260414190751:4588
+[    1844ms] [WARNING] JQMIGRATE: jQuery.fn.attr('value') no longer gets properties @ https://static.oliveyoung.co.kr/pc-static-root/js/search/beta2.fix.js?dumm=20260414190751:40
+[    1901ms] [WARNING] JQMIGRATE: jQuery.fn.attr('checked') may use property instead of attribute @ https://static.oliveyoung.co.kr/pc-static-root/js/search/beta2.fix.js?dumm=20260414190751:40
+[    2656ms] [ERROR] Attestation check for Attribution Reporting on https://www.facebook.com failed. @ https://www.oliveyoung.co.kr/store/search/getSearchMain.do?query=%ED%93%8C&giftYn=N:0
+[    3189ms] [LOG] log 종료 처리 @ https://www.oliveyoung.co.kr/store/search/getSearchMain.do?query=%ED%93%8C&giftYn=N:6671
+[   20567ms] [ERROR] Attestation check for Attribution Reporting on https://www.facebook.com failed. @ https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000248951&dispCatNo=1000001000200060003&trackingCd=Result_1:0
+[   20578ms] [ERROR] Attestation check for Attribution Reporting on https://www.facebook.com failed. @ https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000248951&dispCatNo=1000001000200060003&trackingCd=Result_1:0
+[   32797ms] [LOG] No valid token available @ https://cf-static.oliveyoung.co.kr/lavender/2026040901/_next/static/chunks/1598.03f01de675dc5ea5.js:0
+[   32798ms] [LOG] No valid token available @ https://cf-static.oliveyoung.co.kr/lavender/2026040901/_next/static/chunks/1598.03f01de675dc5ea5.js:0
+[   32804ms] [LOG] No valid token available @ https://cf-static.oliveyoung.co.kr/lavender/2026040901/_next/static/chunks/1598.03f01de675dc5ea5.js:0
+[   32804ms] [LOG] No valid token available @ https://cf-static.oliveyoung.co.kr/lavender/2026040901/_next/static/chunks/1598.03f01de675dc5ea5.js:0
+[   32806ms] [LOG] No valid token available @ https://cf-static.oliveyoung.co.kr/lavender/2026040901/_next/static/chunks/1598.03f01de675dc5ea5.js:0
+[   32865ms] [ERROR] Attestation check for Attribution Reporting on https://www.facebook.com failed. @ https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000248951&dispCatNo=1000001000200060003&trackingCd=Result_1&tab=review:0
+[   32877ms] [ERROR] Attestation check for Attribution Reporting on https://www.facebook.com failed. @ https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000248951&dispCatNo=1000001000200060003&trackingCd=Result_1&tab=review:0
+[   32959ms] [LOG] No valid token available @ https://cf-static.oliveyoung.co.kr/lavender/2026040901/_next/static/chunks/1598.03f01de675dc5ea5.js:0
